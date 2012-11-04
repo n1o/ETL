@@ -162,6 +162,67 @@ class Util(object):
         elif self.canCastStringToBoolean(valueToValidate):
             return self.castStringToBoolean(valueToValidate)
         else: return None
-        
-        
     
+    def isValidInteger(self,value):
+        if self.isInteger(value) and self.isPositive(value):
+            return True
+        elif self.canBeCastedToInteger(value) and self.isPositive(self.castToInteger(value)):
+            return True
+        else : return False
+        
+    def validateInteger(self,valueToValidate):
+        if  self.isInteger(valueToValidate) and not self.isPositive(valueToValidate):
+            return valueToValidate *(-1)
+        elif self.canBeCastedToInteger(valueToValidate) and not self.isPositive(self.castToInteger(valueToValidate)):
+            return self.castToInteger(valueToValidate) * (-1)
+        elif self.canBeCastedToInteger(valueToValidate):
+            return self.castToInteger(valueToValidate)
+        else: return None
+        
+    def isValidAdress(self,adress):
+        pat = re.compile("^[A-Z][a-z ]* \d{1-4}$")
+        ret = re.match(pat,adress)
+        if ret!=None:
+            return ret
+        else: return False
+    def isValidCisloUctu(self,cUctu):
+        pat = re.compile("^[0-9]{10}/\d{4}$")
+        ret = re.match(pat,cUctu)
+        if ret!=None:
+            return ret
+        else: return False
+    def isValidICO(self,value):
+        pat = re.compile("^\d{8}$")
+        ret = re.match(pat,value)
+        if ret !=None:
+            return ret
+        else: return False
+    def isDostupnostTovaru(self,value):
+        pat = re.compile("dostupne|nedostupne|na objednavku")
+        ret = re.match(pat, value)
+        if ret!=None:
+            return ret
+        else : return False
+        
+    def validateDostupnost(self,valueToValidate):
+        pat1 = re.compile("dostupne", re.IGNORECASE)
+        pat2 = re.compile("nedostupne", re.IGNORECASE)
+        pat3 = re.compile("na objednavku", re.IGNORECASE)
+        
+        if re.match(pat1,valueToValidate):
+            return "dostupne"
+        if re.match(pat2,valueToValidate):
+            return "nedostupne"
+        if re.match(pat3,valueToValidate):
+            return "na objednavku"
+        else: return None
+        
+    def isMutacia(self,value):
+        pattern = re.compile("^[A-Z]{3}$", re.IGNORECASE)
+        match = re.match(pattern,value)
+        if match!=None:
+            return match
+        else: return False
+        
+        
+        

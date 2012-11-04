@@ -81,9 +81,10 @@ class Test(unittest.TestCase):
         
     def testNameValidate(self):
         self.assertEqual(self._util.validateName("marek"),"Marek")
-        self.assertEqual(self._util.validateName("mare k"),None)
+        self.assertEqual(self._util.validateName("mar ek"),None)
     def testMailIsValid(self):
         self.assertTrue(self._util.isMailValid("mrk.barak@gmail.com"))
+        
     def testTextValid(self):
         self.assertTrue(self._util.isTextValid("Ano je valid"))
         self.assertTrue(self._util.isTextValid("NO"))

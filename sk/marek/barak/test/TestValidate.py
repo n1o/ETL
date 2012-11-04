@@ -4,15 +4,7 @@ Created on Nov 2, 2012
 @author: marek
 '''
 import unittest
-from sk.marek.barak.app.ValidatorClasses import SumaValidatorImpl
-from sk.marek.barak.app.ValidatorClasses import VybaveneValidate
-from sk.marek.barak.app.ValidatorClasses import PrevzatieValidate
-from sk.marek.barak.app.ValidatorClasses import PlatbaValidate
-from sk.marek.barak.app.ValidatorClasses import StavObjednavkyValidate
-from sk.marek.barak.app.ValidatorClasses import MenoZamestnancaValidate
-from sk.marek.barak.app.ValidatorClasses import MailValidate
-from sk.marek.barak.app.ValidatorClasses import ValidateText
-from sk.marek.barak.app.ValidatorClasses import ValidateUznanie
+from sk.marek.barak.app.ValidatorClasses import *
 
 
 class Test(unittest.TestCase):
@@ -25,6 +17,8 @@ class Test(unittest.TestCase):
     mailValidate = MailValidate()
     textValidator = ValidateText()
     uznanieValidate = ValidateUznanie()
+    pocetKsValid = PocetKSValidate()
+    dostupnostValid = DostupnostValidate()
     
     
     def testSumaIsValid(self):
@@ -92,8 +86,22 @@ class Test(unittest.TestCase):
         self.assertTrue(self.uznanieValidate.validate("1"))
         self.assertFalse(self.uznanieValidate.validate("0"))
         self.assertTrue(self.uznanieValidate.validate("ano"))
-        
     
+    def testPocetKsIsValid(self):
+        self.assertTrue(self.pocetKsValid.isValid("15"))
+        self.assertFalse(self.pocetKsValid.isValid("16c"))
+    
+    def testPocetKsValidate(self):
+        self.assertEqual(self.pocetKsValid.validate(-16),16)
+        self.assertEqual(self.pocetKsValid.validate("+15"), 15)
+        self.assertEqual(self.pocetKsValid.validate("-15"), 15)
+        self.assertFalse(self.pocetKsValid.validate("c15"), 15)
+        
+    def testIsDotupnostTovaru(self):
+        self.assertTrue(self.dostupnostValid.isValid("dostupne"))
+        self.assertFalse(self.dostupnostValid.isValid("Na cEste"))
+    def testValidateDostupnostTovaru(self):
+        self.assertEqual(self.dostupnostValid.validate("NA obJedNavKu"), "na objednavku")
     
         
 if __name__ == "__main__":

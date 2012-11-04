@@ -38,20 +38,10 @@ class SumaValidatorImpl(ValidatorBaseClass):
         Constructor
         '''
     def isValid(self,value):
-        if self._util.isInteger(value) and self._util.isPositive(value):
-            return True
-        elif self._util.canBeCastedToInteger(value) and self._util.isPositive(self._util.castToInteger(value)):
-            return True
-        else : return False
+        return self._util.isValidInteger(value)
     
     def validate(self, valueToValidate): 
-        if  self._util.isInteger(valueToValidate) and not self._util.isPositive(valueToValidate):
-            return valueToValidate *(-1)
-        elif self._util.canBeCastedToInteger(valueToValidate) and not self._util.isPositive(self._util.castToInteger(valueToValidate)):
-            return self._util.castToInteger(valueToValidate) * (-1)
-        elif self._util.canBeCastedToInteger(valueToValidate):
-            return self._util.castToInteger(valueToValidate)
-        else: return None
+        return self._util.validateInteger(valueToValidate)
     
 class VybaveneValidate(ValidatorBaseClass):
     def __init__(self):
@@ -128,20 +118,61 @@ class ValidateText(ValidatorBaseClass):
         return self._util.isTextValid(value)
     
 class ValidateUznanie(ValidatorBaseClass):
+    '''
+    Depreciated dont use
+    '''
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
         return self._util.isBoolean(value)
     def validate(self, valueToValidate):
         return self._util.castToBoolean(valueToValidate)
-        
     
-        
-            
-        
-        
+class PocetKSValidate(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
     
+    def isValid(self, value):
+        return self._util.isValidInteger(value)
     
+    def validate(self, valueToValidate):
+        return self._util.validateInteger(valueToValidate)
     
+class CisloUctuValidate(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self._util.isValidCisloUctu(value)
+    def validate(self, valueToValidate):
+        return ValidatorBaseClass.validate(self, valueToValidate)
+    
+class ICOValidate(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self._util.isValidICO(value)
+    
+class BooleanValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self._util.isBoolean(value)
+    def validate(self, valueToValidate):
+        return self._util.castToBoolean(valueToValidate)
+    
+class PositiveIntegerValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self._util.isValidInteger(value)
+    def validate(self, valueToValidate):
+        return self._util.validateInteger(valueToValidate)
+class DostupnostValidate(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self._util.isDostupnostTovaru(value)
+    def validate(self, valueToValidate):
+        return self._util.validateDostupnost(valueToValidate)
 
     
