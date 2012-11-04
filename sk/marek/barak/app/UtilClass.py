@@ -142,10 +142,10 @@ class Util(object):
         else : return None
         
     def isMailValid(self,mail):
-        pat = re.compile("^[a-z0-9]+[._a-z0-9]+@[a-z0-9]+[._a-z0-9]*\.[a-z]{2-4}$",re.IGNORECASE)
-        ret = re.match(pat,mail)
-        if ret!=None:
-            return ret
+        pat = re.compile("^[a-z0-9._]+@[a-z._0-9]+\.[a-z]{2,4}$",re.IGNORECASE)
+        ret = pat.match(mail)
+        if ret!=None and (ret == True or ret == False):
+            return ret 
         else : return False
     def isTextValid(self,text):
         if len(text)<250:
@@ -180,7 +180,7 @@ class Util(object):
         else: return None
         
     def isValidAdress(self,adress):
-        pat = re.compile("^[A-Z][a-z ]* \d{1-4}$")
+        pat = re.compile("^[A-Z][a-z ]* \d{1,4}$")
         ret = re.match(pat,adress)
         if ret!=None:
             return ret
