@@ -142,7 +142,7 @@ class Util(object):
         else : return None
         
     def isMailValid(self,mail):
-        pat = re.compile("^[a-z0-9]+[._a-z0-9]+@[a-z0-9]+[._a-z0-9]*\.[a-z]{2,4}$",re.IGNORECASE)
+        pat = re.compile("^[a-z0-9]+[._a-z0-9]+@[a-z0-9]+[._a-z0-9]*\.[a-z]{2-4}$",re.IGNORECASE)
         ret = re.match(pat,mail)
         if ret!=None:
             return ret
@@ -218,11 +218,17 @@ class Util(object):
         else: return None
         
     def isMutacia(self,value):
-        pattern = re.compile("^[A-Z]{3}$", re.IGNORECASE)
+        pattern = re.compile("^[A-Z]{3}$")
         match = re.match(pattern,value)
         if match!=None:
             return match
         else: return False
-        
+    def validateMutacia(self,value):
+        pattern = re.compile("^[A-Z]{3}$",re.IGNORECASE)
+        match = re.match(pattern,value)
+        if match!=None:
+            return value.upper()
+        else: return None
+
         
         
