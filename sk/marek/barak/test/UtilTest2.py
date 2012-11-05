@@ -14,23 +14,23 @@ class Test(unittest.TestCase):
         '''self.assertTrue(self._util.isValidAdress("Komarnanska 29"))
         '''
     def testCisloUctu(self):
-        self.assertTrue(self._util.isValidCisloUctu("1234567891/1000"))
+        self.assertEquals(self._util.isValidCisloUctu("1234567891/1000"),True)
     def testICO(self):
-        self.assertTrue(self._util.isValidICO("12345678"))
+        self.assertEquals(self._util.isValidICO("12345678"),True)
     def testIsDostupnost(self):
-        self.assertTrue(self._util.isDostupnostTovaru("dostupne"))
-        self.assertFalse(self._util.isDostupnostTovaru("Dostupne"))
+        self.assertEquals(self._util.isDostupnostTovaru("dostupne"),True)
+        self.assertEquals(self._util.isDostupnostTovaru("Dostupne"),False)
     def testValidateDostupne(self):
-        self.assertTrue(self._util.validateDostupnost("Dostupne"))
-        self.assertTrue(self._util.validateDostupnost("Nedostupne"))
-        self.assertTrue(self._util.validateDostupnost("NA obJedNavKu"))
+        self.assertEquals(self._util.validateDostupnost("Dostupne"),"dostupne")
+        self.assertEquals(self._util.validateDostupnost("Nedostupne"),"nedostupne")
+        self.assertEquals(self._util.validateDostupnost("NA obJedNavKu"),"na objednavku")
     def testIsMutacia(self):
-        self.assertTrue(self._util.isMutacia("CZE"))
-        self.assertFalse(self._util.isMutacia("cze"))
+        self.assertEquals(self._util.isMutacia("CZE"),True)
+        self.assertEquals(self._util.isMutacia("cze"),False)
     def testValidateMutacia(self):
         self.assertEqual(self._util.validateMutacia("cze"), "CZE")
     def testMailIsValid(self):
-        self.assertTrue(self._util.isMailValid("mrk.barak@gmail.com"))
+        self.assertEquals(self._util.isMailValid("mrk.barak@gmail.com"),True)
         
         
 if __name__ == "__main__":

@@ -53,43 +53,44 @@ class Test(unittest.TestCase):
         self.assertTrue(self._util.canCastStringToBoolean("ano"))
         
     def testIsPrevzatie(self):
-        self.assertTrue(self._util.isPrevzatie("kurier"))
-        self.assertTrue(self._util.isPrevzatie("posta"))
-        self.assertTrue(self._util.isPrevzatie("osobny odber"))
-        self.assertFalse(self._util.isPrevzatie("osob odber"))
+        self.assertEquals(self._util.isPrevzatie("kurier"),True)
+        self.assertEquals(self._util.isPrevzatie("posta"),True)
+        self.assertEquals(self._util.isPrevzatie("osobny odber"),True)
+        self.assertEquals(self._util.isPrevzatie("osob odber"),False)
         
     def testIsPlatba(self):
-        self.assertTrue(self._util.isPlatba("hotovost"))
-        self.assertTrue(self._util.isPlatba("online"))
-        self.assertTrue(self._util.isPlatba("prevod"))
-        self.assertFalse(self._util.isPlatba("hotoVost"))
+        self.assertEquals(self._util.isPlatba("hotovost"),True)
+        self.assertEquals(self._util.isPlatba("online"),True)
+        self.assertEquals(self._util.isPlatba("prevod"),True)
+        self.assertEquals(self._util.isPlatba("hotoVost"),False)
     def testPlatbaValidate(self):
         self.assertEqual(self._util.validatePlatba("Hotovost"),"hotovost")
         self.assertEqual(self._util.validatePlatba("oNliNe"), "online")
         self.assertEqual(self._util.validatePlatba("otovost"), None)
     
     def testIsStavObjednavky(self):
-        self.assertTrue(self._util.isStavObjednavky("pripravena na expediciu"))
-        self.assertFalse(self._util.isStavObjednavky("priprvena na expediciu"))
+        self.assertEquals(self._util.isStavObjednavky("pripravena na expediciu"),True)
+        self.assertEquals(self._util.isStavObjednavky("priprvena na expediciu"),False)
         
     def testStavObjednavkyValidate(self):
         self.assertEqual(self._util.validateStavObjednavky("Pripravena na expediciu"), "pripravena na expediciu")
         self.assertEqual(self._util.validateStavObjednavky("Priprave na expediciu"), None)
+        
     def testNameIsValid(self):
-        self.assertTrue(self._util.isValidName("Marek"))
-        self.assertFalse(self._util.isValidName("jano"))
+        self.assertEquals(self._util.isValidName("Marek"),True)
+        self.assertEquals(self._util.isValidName("jano"),False)
         
     def testNameValidate(self):
         self.assertEqual(self._util.validateName("marek"),"Marek")
         self.assertEqual(self._util.validateName("mar ek"),None)
 
     def testTextValid(self):
-        self.assertTrue(self._util.isTextValid("Ano je valid"))
-        self.assertTrue(self._util.isTextValid("NO"))
-    
-    
-                         
-        
+        self.assertEquals(self._util.isTextValid("Ano je valid"),True)
+        value = ""
+        for i in range(1000):
+            value += str(i)
+        self.assertEquals(self._util.isTextValid(value),False)
+           
 if __name__ == "__main__": 
     #import sys;sys.argv = ['', 'Test.testName']
     unittest.main()

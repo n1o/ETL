@@ -16,5 +16,9 @@ class ValidatorContainer(object):
        self._conainer["integer"] = PositiveIntegerValidator()
        
     def getElement(self,elementId):
-        return self._conainer[elementId.lower()]
-    
+        if elementId in self._conainer.keys():
+            return self._conainer[elementId.lower()]
+        else: return None
+    def registerElement(self,Id,element):
+        if isinstance(element, ValidatorBaseClass):
+            self._conainer[Id] = element 

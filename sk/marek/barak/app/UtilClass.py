@@ -62,9 +62,9 @@ class Util(object):
         
     def isPrevzatie(self,values):
         pattern = re.compile("osobny odber|kurier|posta")
-        ret = re.match(pattern, values)
+        ret = pattern.match(values)
         if ret !=None:
-            return ret
+            return values == ret.group()
         else : return False
         
     def valitedPrevzatie(self, values):
@@ -83,9 +83,9 @@ class Util(object):
     
     def isPlatba(self,values):
         pattern = re.compile("hotovost|prevod|online")
-        ret = re.match(pattern, values)
+        ret = pattern.match(values)
         if ret !=None:
-            return ret
+            return values == ret.group()
         else: return False
     
     def validatePlatba(self,values):
@@ -102,9 +102,9 @@ class Util(object):
         return None
     def isStavObjednavky(self,values):
         pattern = re.compile("vybavena|pripravena na expediciu|pripravuje sa|zrusena|prijata")
-        ret = re.match(pattern, values)
+        ret = pattern.match(values)
         if ret !=None:
-            return ret
+            return values == ret.group()
         else: return False
         
     def validateStavObjednavky(self,value):
@@ -114,38 +114,37 @@ class Util(object):
         pat4 = re.compile("zrusena", re.IGNORECASE)
         pat5 = re.compile("prijata", re.IGNORECASE)
         
-        if re.match(pat1, value):
+        if pat1.match(value):
             return "vybavena"
-        if re.match(pat2, value):
+        if pat2.match(value):
             return "pripravena na expediciu"
-        if re.match(pat3, value):
+        if pat3.match(value):
             return "pripravuje sa"
-        if re.match(pat4, value):
+        if pat4.match(value):
             return "zrusena"
-        if re.match(pat5, value):
+        if pat5.match(value):
             return "prijata"
         return None
             
     def isValidName(self,value):
         pat = re.compile("^[A-Z][a-z]+$")
-        ret = re.match(pat,value)
+        ret = pat.match(value)
         if ret!=None:
-            return ret
+            return ret.group()==value
         else: return False
         
     def validateName(self,value):
         pat = re.compile("^[a-z]+$",re.IGNORECASE)
-        if re.match(pat, value):
-            print "match"
+        if pat.match(value):
             val = value.lower()
             return val.capitalize()
         else : return None
         
     def isMailValid(self,mail):
-        pat = re.compile("^[a-z0-9._]+@[a-z._0-9]+\.[a-z]{2,4}$",re.IGNORECASE)
+        pat = re.compile("^[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$",re.IGNORECASE)
         ret = pat.match(mail)
-        if ret!=None and (ret == True or ret == False):
-            return ret 
+        if ret!=None:
+            return ret.group() == mail
         else : return False
     def isTextValid(self,text):
         if len(text)<250:
@@ -181,27 +180,27 @@ class Util(object):
         
     def isValidAdress(self,adress):
         pat = re.compile("^[A-Z][a-z ]* \d{1,4}$")
-        ret = re.match(pat,adress)
+        ret = pat.match(adress)
         if ret!=None:
-            return ret
+            return ret.group()==adress
         else: return False
     def isValidCisloUctu(self,cUctu):
         pat = re.compile("^[0-9]{10}/\d{4}$")
-        ret = re.match(pat,cUctu)
+        ret = pat.match(cUctu)
         if ret!=None:
-            return ret
+            return ret.group()==cUctu
         else: return False
     def isValidICO(self,value):
         pat = re.compile("^\d{8}$")
-        ret = re.match(pat,value)
+        ret = pat.match(value)
         if ret !=None:
-            return ret
+            return value == ret.group()
         else: return False
     def isDostupnostTovaru(self,value):
         pat = re.compile("dostupne|nedostupne|na objednavku")
-        ret = re.match(pat, value)
+        ret = pat.match(value)
         if ret!=None:
-            return ret
+            return ret.group() == value
         else : return False
         
     def validateDostupnost(self,valueToValidate):
@@ -219,13 +218,13 @@ class Util(object):
         
     def isMutacia(self,value):
         pattern = re.compile("^[A-Z]{3}$")
-        match = re.match(pattern,value)
+        match = pattern.match(value)
         if match!=None:
-            return match
+            return match.group() == value
         else: return False
     def validateMutacia(self,value):
         pattern = re.compile("^[A-Z]{3}$",re.IGNORECASE)
-        match = re.match(pattern,value)
+        match = pattern.match(value)
         if match!=None:
             return value.upper()
         else: return None

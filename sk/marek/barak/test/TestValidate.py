@@ -40,18 +40,18 @@ class Test(unittest.TestCase):
         self.assertFalse(self.vybaveneValidator.validate("0"))
     
     def testPrevzatieIsValid(self):
-        self.assertTrue(self.validatePrevzatie.isValid("osobny odber"))
-        self.assertTrue(self.validatePrevzatie.isValid("kurier"))
-        self.assertTrue(self.validatePrevzatie.isValid("posta"))
-        self.assertFalse(self.validatePrevzatie.isValid("osobny Odber"))
+        self.assertEquals(self.validatePrevzatie.isValid("osobny odber"),True)
+        self.assertEquals(self.validatePrevzatie.isValid("kurier"),True)
+        self.assertEquals(self.validatePrevzatie.isValid("posta"),True)
+        self.assertEquals(self.validatePrevzatie.isValid("osobny Odber"),False)
     
     def tesPrevzatieValidate(self):
-        self.assertEqual(self.validatePrevzatie.validate("Osobny odber"), "osobny odber")
-        self.assertTrue(self.validatePrevzatie.isValid("osoy odber"),None)
+        self.assertEquals(self.validatePrevzatie.validate("Osobny odber"), "osobny odber")
+        self.assertEquals(self.validatePrevzatie.isValid("osoy odber"),None)
         
     def testIsPlatba(self):
-        self.assertTrue(self.platbaValidate.isValid("hotovost"))
-        self.assertFalse(self.platbaValidate.isValid("Hotovost"))
+        self.assertEquals(self.platbaValidate.isValid("hotovost"),True)
+        self.assertEquals(self.platbaValidate.isValid("Hotovost"),False)
     def testPlatbaValidate(self):
         self.assertEqual(self.platbaValidate.validate("Hotovost"), "hotovost")
         self.assertEqual(self.platbaValidate.validate("oNliNe"), "online")

@@ -22,12 +22,35 @@ def main():
     container = ValidatorContainer()
     ls = getCsvContaint()
     header = ls.pop(0)
+    invalidLines = []
+    validLine = []
+    validLines = []
     print header
     for row in ls:
         for i in range(len(row)):
             validator = container.getElement(header[i])
-            val= validator.isValid(row[i])
-            print header[i] +"   " +str(val) + "  " +row[i]
-    
+            if validator is not None:    
+                if not validator.isValid(row[i]):
+                    validateValue = validator.validate(row[i])
+                    print validateValue
+                    if validateValue is None:
+                        invalidElement = "Invalid "+header[i]+str(row)
+                        invalidLines.append(invalidElement)
+                    else:
+                        validLine.append(str(validateValue))
+                else:
+                    validLine.append(row[i])
+            else: validLine.append(row[i])
+        if len(validLine)==len(row):
+            validLines.append(validLine)
+        validLine=[]
+            
+        
+    for line in validLines:
+        print line
+    print "-----------INVALID------------"
+    for line in invalidLines:
+        print line
+        
 if __name__ == '__main__':
     main()

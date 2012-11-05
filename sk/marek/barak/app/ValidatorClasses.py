@@ -11,7 +11,6 @@ class ValidatorBaseClass(object):
         
     def __init__(self):
 
-        
         '''
         Constructor
         '''
