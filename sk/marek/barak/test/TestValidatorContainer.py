@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
     validatorContainer =ValidatorContainer()
 
     def testValidatorConainer(self):
-        validator  = self.validatorContainer.getElement("mail")
+        validator  = self.validatorContainer.getElement("Mail")
         self.assertEquals(validator.isValid("mrk.barak@gmail.com"),True)
         
     def testValidatorContainerGetNonExistingElement(self):

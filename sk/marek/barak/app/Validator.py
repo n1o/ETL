@@ -49,6 +49,7 @@ def main():
     for line in validLines:
         print line
     print "-----------INVALID------------"
+    
     for line in invalidLines:
         print line
         

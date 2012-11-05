@@ -11,14 +11,16 @@ class ValidatorContainer(object):
 
 
     def __init__(self):
-       self._conainer = dict()
-       self._conainer["mail"] = MailValidate()
-       self._conainer["integer"] = PositiveIntegerValidator()
+        self._container = dict()
+        self.registerElement("mail", MailValidate())
+        self.registerElement("integer", PositiveIntegerValidator())
        
     def getElement(self,elementId):
-        if elementId in self._conainer.keys():
-            return self._conainer[elementId.lower()]
+        if elementId.lower() in self._container.keys():
+            validator = self._container[elementId.lower()]
+            if validator is not None:
+                return validator
         else: return None
     def registerElement(self,Id,element):
         if isinstance(element, ValidatorBaseClass):
-            self._conainer[Id] = element 
+            self._container[Id] = element 
