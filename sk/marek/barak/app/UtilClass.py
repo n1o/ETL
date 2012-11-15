@@ -5,6 +5,8 @@ Created on Nov 2, 2012
 '''
 import re
 from sre_parse import Pattern
+import datetime
+from compiler.pycodegen import EXCEPT
 class Util(object):
     
     def __init__(self):
@@ -228,6 +230,62 @@ class Util(object):
         if match!=None:
             return value.upper()
         else: return None
+    def isValidDate(self,date):
+        pattern = re.compile("[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}")
+        val = pattern.match(date)
+        if val is not None:
+            if val.group() == date:
+                splitDate = date.split(".")
+                try:
+                    dt = datetime.datetime(int(splitDate[2]),int(splitDate[1]),int(splitDate[0]))
+                    return True
+                except ValueError:
+                    return False
+        return False
+    
+    def validateDate(self,value):
+        posibleValues = []
+        replaced = value
+        posibleValues.append(replaced.replace("-","."))
+        replaced = value
+        posibleValues.append(replaced.replace("/","."))
+        for val in posibleValues:
+            pattern = re.compile("[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}")
+            var = pattern.match(val)
+            if var is not None:
+                if var.group() == val and self.isValidDate(val):
+                    return val
+        return None
+    
+    def isISBN(self,value):
+        pattern = re.compile("[0-9]{13}")
+        val = pattern.match(value)
+        if val is not None:
+            return val.group() == value
+        else: return False
+    def isFloat(self,value):
+        pattern = re.compile("^[0-9]+,[0-9]+$")
+        val = pattern.match(value)
+        if val is not None:
+            return val.group() == value
+        else : return False
+    
+    def validateFloat(self,value):
+        value.strip()
+        val = value.replace(" ","")
+        val = val.replace("'","")
+        val = val.replace(".",",")
+        pattern = re.compile("^[0-9]+,[0-9]+$")
+        ret = pattern.match(val)
+        if ret is not None:
+            if ret.group() == val:
+                return val
+            else: return None
+        else: return None
+    def isValidVekovaDostupnost(self,value):
+        return self.isValidInteger(value) and self.castToInteger(value)<200
+            
+                     
 
         
         

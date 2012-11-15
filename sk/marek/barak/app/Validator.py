@@ -3,7 +3,6 @@ Created on Nov 4, 2012
 
 @author: marek
 '''
-import sys
 import csv
 from sk.marek.barak.app.ValidatorConatiner import ValidatorContainer
 
@@ -25,6 +24,7 @@ def main():
     invalidLines = []
     validLine = []
     validLines = []
+    
     print header
     for row in ls:
         for i in range(len(row)):
@@ -32,7 +32,6 @@ def main():
             if validator is not None:    
                 if not validator.isValid(row[i]):
                     validateValue = validator.validate(row[i])
-                    print validateValue
                     if validateValue is None:
                         invalidElement = "Invalid "+header[i]+str(row)
                         invalidLines.append(invalidElement)
@@ -49,7 +48,7 @@ def main():
     for line in validLines:
         print line
     print "-----------INVALID------------"
-    
+    print header
     for line in invalidLines:
         print line
         

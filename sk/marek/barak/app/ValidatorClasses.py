@@ -7,7 +7,7 @@ Created on Nov 1, 2012
 from sk.marek.barak.app.UtilClass import Util
 
 class ValidatorBaseClass(object):
-    _util = Util()
+    __util__ = Util()
         
     def __init__(self):
 
@@ -18,16 +18,16 @@ class ValidatorBaseClass(object):
         '''
         Define the validating codition for value
         '''
-        return None
+        raise NotImplementedError
     def validate(self,valueToValidate):
         '''
         Define the validation opperation
         '''
-        return None
+        raise NotImplementedError
         
 class SumaValidatorImpl(ValidatorBaseClass):
     '''
-    classdocs
+    Dont use depreciated. Use rather PositiveIntegerValidator
     '''
 
 
@@ -37,84 +37,82 @@ class SumaValidatorImpl(ValidatorBaseClass):
         Constructor
         '''
     def isValid(self,value):
-        return self._util.isValidInteger(value)
+        return self.__util__.isValidInteger(value)
     
     def validate(self, valueToValidate): 
-        return self._util.validateInteger(valueToValidate)
+        return self.__util__.validateInteger(valueToValidate)
     
 class VybaveneValidate(ValidatorBaseClass):
     def __init__(self):
             '''
             '''
-        
     def isValid(self,value):
-        return self._util.isBoolean(value)
+        return self.__util__.isBoolean(value)
     
     def validate(self,valueToValidate):
-        return self._util.castToBoolean(valueToValidate)
-
+        return self.__util__.castToBoolean(valueToValidate)
 
 class PrevzatieValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     
     def isValid(self, value):
-        return self._util.isPrevzatie(value)
+        return self.__util__.isPrevzatie(value)
     
     def validate(self, valueToValidate):
-        return self._util.valitedPrevzatie(valueToValidate)
+        return self.__util__.valitedPrevzatie(valueToValidate)
     
 class PlatbaValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     
     def isValid(self, value):
-        return self._util.isPlatba(value)
+        return self.__util__.isPlatba(value)
     
     def validate(self, valueToValidate):
-        return self._util.validatePlatba(valueToValidate)
+        return self.__util__.validatePlatba(valueToValidate)
     
 class StavObjednavkyValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
             
     def isValid(self, value):
-        return self._util.isStavObjednavky(value)
+        return self.__util__.isStavObjednavky(value)
     
     def validate(self, valueToValidate):
-        return self._util.validateStavObjednavky(valueToValidate)
+        return self.__util__.validateStavObjednavky(valueToValidate)
     
 class MenoZamestnancaValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
         
     def isValid(self, value):
-        return self._util.isValidName(value)
+        return self.__util__.isValidName(value)
     def validate(self, valueToValidate):
-        return  self._util.validateName(valueToValidate)
+        return  self.__util__.validateName(valueToValidate)
     
 class PriezvyskoZamesntancaValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     
     def isValid(self, value):
-        return self._util.isValidName(value)
+        return self.__util__.isValidName(value)
     
     def validate(self, valueToValidate):
-        return self._util.validateName(valueToValidate)
+        return self.__util__.validateName(valueToValidate)
 
 class MailValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isMailValid(value)
+        return self.__util__.isMailValid(value)
     def validate(self, valueToValidate):
         return None
 class ValidateText(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isTextValid(value)
+        return self.__util__.isTextValid(value)
     
 class ValidateUznanie(ValidatorBaseClass):
     '''
@@ -123,25 +121,25 @@ class ValidateUznanie(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isBoolean(value)
+        return self.__util__.isBoolean(value)
     def validate(self, valueToValidate):
-        return self._util.castToBoolean(valueToValidate)
+        return self.__util__.castToBoolean(valueToValidate)
     
 class PocetKSValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     
     def isValid(self, value):
-        return self._util.isValidInteger(value)
+        return self.__util__.isValidInteger(value)
     
     def validate(self, valueToValidate):
-        return self._util.validateInteger(valueToValidate)
+        return self.__util__.validateInteger(valueToValidate)
     
 class CisloUctuValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isValidCisloUctu(value)
+        return self.__util__.isValidCisloUctu(value)
     def validate(self, valueToValidate):
         return ValidatorBaseClass.validate(self, valueToValidate)
     
@@ -149,29 +147,53 @@ class ICOValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isValidICO(value)
+        return self.__util__.isValidICO(value)
     
 class BooleanValidator(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isBoolean(value)
+        return self.__util__.isBoolean(value)
     def validate(self, valueToValidate):
-        return self._util.castToBoolean(valueToValidate)
+        return self.__util__.castToBoolean(valueToValidate)
     
 class PositiveIntegerValidator(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isValidInteger(value)
+        return self.__util__.isValidInteger(value)
     def validate(self, valueToValidate):
-        return self._util.validateInteger(valueToValidate)
+        return self.__util__.validateInteger(valueToValidate)
+    
 class DostupnostValidate(ValidatorBaseClass):
     def __init__(self):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
-        return self._util.isDostupnostTovaru(value)
+        return self.__util__.isDostupnostTovaru(value)
     def validate(self, valueToValidate):
-        return self._util.validateDostupnost(valueToValidate)
-
+        return self.__util__.validateDostupnost(valueToValidate)
+    
+class DateValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self.__util__.isValidDate(value)
+    def validate(self, valueToValidate):
+        return self.__util__.validateDate(valueToValidate)
+class IsbnValidator(ValidatorBaseClass):
+    
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self.__util__.isISBN(value)
+    def validate(self, valueToValidate):
+        return None
+    
+class FloatValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self.__util__.isFloat(value);
+    def validate(self, valueToValidate):
+        return self.__util__.validateFloat(valueToValidate);
     
