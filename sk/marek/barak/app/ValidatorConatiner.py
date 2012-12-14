@@ -14,6 +14,17 @@ class ValidatorContainer(object):
         self._container = dict()
         self.registerElement("mail", MailValidate())
         self.registerElement("integer", PositiveIntegerValidator())
+        self.registerElement("uznanie", BooleanValidator())
+        self.registerElement("c_uctu", CisloUctuValidate())
+        self.registerElement("ico", ICOValidate())
+        self.registerElement("meno", MenoZamestnancaValidate())
+        self.registerElement("priezvisko",PriezvyskoZamesntancaValidate())
+        self.registerElement("vystavena", BooleanValidator())
+        self.registerElement("zaplatena", BooleanValidator())
+        self.registerElement("pocet_ks",PositiveIntegerValidator())
+        
+    
+        
        
     def getElement(self,elementId):
         if elementId.lower() in self._container.keys():

@@ -43,7 +43,6 @@ def main():
         if len(validLine)==len(row):
             validLines.append(validLine)
         validLine=[]
-            
         
     for line in validLines:
         print line
