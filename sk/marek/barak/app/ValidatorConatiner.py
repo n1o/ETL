@@ -23,9 +23,6 @@ class ValidatorContainer(object):
         self.registerElement("zaplatena", BooleanValidator())
         self.registerElement("pocet_ks",PositiveIntegerValidator())
         
-    
-        
-       
     def getElement(self,elementId):
         if elementId.lower() in self._container.keys():
             validator = self._container[elementId.lower()]
