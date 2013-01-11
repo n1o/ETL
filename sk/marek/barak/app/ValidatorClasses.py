@@ -197,3 +197,11 @@ class FloatValidator(ValidatorBaseClass):
     def validate(self, valueToValidate):
         return self.__util__.validateFloat(valueToValidate);
     
+class XMLValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self.__util__.isValidXML(value)
+    def validate(self, valueToValidate):
+        return self.__util__.validateXML(valueToValidate)
+    

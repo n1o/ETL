@@ -7,6 +7,7 @@ import re
 from sre_parse import Pattern
 import datetime
 from compiler.pycodegen import EXCEPT
+from xml.etree import ElementTree
 class Util(object):
     
     def __init__(self):
@@ -284,6 +285,20 @@ class Util(object):
         else: return None
     def isValidVekovaDostupnost(self,value):
         return self.isValidInteger(value) and self.castToInteger(value)<200
+    
+    def isValidXML(self,xmlBody):
+        try:
+            item = ElementTree.fromstring(xmlBody)
+            
+        except Exception:
+            return False
+        
+        return True
+    
+    def validateXML(self,xmlBody):
+        return None
+        
+        
             
                      
 

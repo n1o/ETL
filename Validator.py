@@ -4,12 +4,13 @@ Created on Nov 4, 2012
 @author: marek
 '''
 import csv
+import sys
 from sk.marek.barak.app.ValidatorConatiner import ValidatorContainer
 from sk.marek.barak.app.DatabaseLoaderContainer import DatabaseLoaderContainer
 
-def getCsvContaint():
+def getCsvContaint(file):
     lst = []
-    with open("in.csv", 'rb') as csvFile:
+    with open(file, 'rb') as csvFile:
         dialect = csv.Sniffer().sniff(csvFile.read(1024))
         csvFile.seek(0)
         reader = csv.reader(csvFile, dialect)
@@ -20,7 +21,8 @@ def getCsvContaint():
 def main():
     print "Start"
     container = ValidatorContainer()
-    ls = getCsvContaint()
+    file = sys.argv[1]
+    ls = getCsvContaint(file)
     header = ls.pop(0)
     invalidLines = list()
     validLine = list()
@@ -44,11 +46,13 @@ def main():
         if len(validLine)==len(row):
             validLines.append(validLine)
         validLine=list()
-    ''''    
+       
     dbLoaderContainer = DatabaseLoaderContainer()
     dbLoader = dbLoaderContainer.getElement(str(header).lower())
+    print "Start to load: " + dbLoader.getKey()
     dbLoader.load(validLines)
-    '''
+    print "Load succesfull"
+    
     
     for line in validLines:
         print line

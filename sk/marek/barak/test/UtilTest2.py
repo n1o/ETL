@@ -50,8 +50,8 @@ class Test(unittest.TestCase):
     def testIsValidVekovaDostupnost(self):
         self.assertEqual(self._util.isValidVekovaDostupnost("20"),True)
         self.assertEqual(self._util.isValidVekovaDostupnost("250"),False)
-    def testValidateVekovaDostupnost(self):
-        self.assertEquals(self._util.validateVekovaDostupnost("+50"),50)
+    def testIsValisXML(self):
+        self.assertEquals(self._util.isValidXML("<xml></xml>"),False)
         
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']
