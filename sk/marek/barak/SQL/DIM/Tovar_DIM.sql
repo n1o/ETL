@@ -5,7 +5,7 @@
 	nazov_tovaru varchar(50),
 	platforma varchar(20),
 	jazykova_mutacia varchar(20),
-	rozsah integer,
+	rozsah varchar(20),
 	datum_vydania date,
 	autor varchar(50),
 	vydavatel varchar(50),
