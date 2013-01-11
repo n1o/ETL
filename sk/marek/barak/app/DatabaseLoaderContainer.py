@@ -20,6 +20,7 @@ class DatabaseLoaderContainer():
         self.__faktObjednavkaLoader__ = FaktObjednavkaLoader()
         self.__faktDodavkaLoader__ = FaktDodavkaLoader()
         self.__faktReklamaciaLoader__ = FaktReklamaciaLoader()
+        self.__faktZamPobocka__ = FaktZamestnanecPobockaLoader()
         
     def getElement(self,key):
         if key == self.__zakLoader__.getKey():
@@ -57,3 +58,6 @@ class DatabaseLoaderContainer():
         
         if key == self.__faktReklamaciaLoader__.getKey():
             return self.__faktReklamaciaLoader__
+        
+        if key == self.__faktZamPobocka__.getKey():
+            return self.__faktZamPobocka__

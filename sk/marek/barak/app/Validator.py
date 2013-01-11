@@ -5,6 +5,7 @@ Created on Nov 4, 2012
 '''
 import csv
 from sk.marek.barak.app.ValidatorConatiner import ValidatorContainer
+from sk.marek.barak.app.DatabaseLoaderContainer import DatabaseLoaderContainer
 
 def getCsvContaint():
     lst = []
@@ -44,8 +45,10 @@ def main():
             validLines.append(validLine)
         validLine=[]
         
-    for line in validLines:
-        print line
+    dbLoaderContainer = DatabaseLoaderContainer()
+    dbLoader = dbLoaderContainer.getElement(str(header).lower())
+    dbLoader.load(validLines)
+    
     print "-----------INVALID------------"
     print header
     for line in invalidLines:

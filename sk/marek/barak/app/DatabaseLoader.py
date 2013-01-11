@@ -23,13 +23,13 @@ class BaseLoader(object):
     
 class Dim_ZamestanecLoader(BaseLoader):
     def __init__(self):
-        self.__key__ ="['meno', 'priezvisko', 'pozicia', 'nadriadeny', 'mail']"
+        self.__key__ ="['meno', 'priezvisko', 'pozicia', 'id_nadriadeny', 'mail']"
         BaseLoader.__init__(self)
     
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into DIM_Zamestnanec(Meno,Priezvisko,Pozicia,Nadriadeny,mail)"
-                 "values(%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO zamestnanec_dim(meno, priezvisko, pozicia, id_nadriadeny, mail)"
+                 "VALUES (%s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
             
@@ -42,13 +42,13 @@ class Dim_ZamestanecLoader(BaseLoader):
 class Dim_DodavatelLoader(BaseLoader):
     def __init__(self):
         print "INIT DIM DODAVATEL LOADER"
-        self.__key__ = "['nazov', 'sidlo', 'c_uctu', 'ico']"
+        self.__key__ = "['nazov', 'adresa', 'bankove_spojenie', 'ico', 'dic']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into DIM_Dodavatel(Nazov,Sidlo,C_uctu,ICO)"
-                 "values(%s,%s,%s,%s)")
+        query = ("INSERT INTO dodavatel_dim(nazov, adresa, bankove_spojenie, ico, dic)"
+                 "VALUES (%s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -60,13 +60,13 @@ class Dim_DodavatelLoader(BaseLoader):
 class Dim_CasLoader(BaseLoader):
     def __init__(self):
         print "INIT DIM CAS LOADER"
-        self.__key__= "['rok', 'mesiac', 'den']"
+        self.__key__= "['cas_znamka', 'rok', 'mesiac', 'den', 'den_v_tyzdni']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into Dim_Cas(ROK,MESIAC,DEN)"
-                 "values(%s,%s,%s)")
+        query = ("INSERT INTO cas_dim(cas_znamka, rok, mesiac, den, den_v_tyzdni)"+
+                 "VALUES (%s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -83,8 +83,9 @@ class DimTovarLoader(BaseLoader):
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into DIM_Tovar(KATEGORIA,Nazov_tovaru,Platforma,Jazykova_mutacia,Rozsah,Datum_vydania,Autor,Vydavatel,Popis,ISBN,Cena,Vekova_dostupnost)"
-                 "values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO tovar_dim(kategoria, nazov_tovaru, platforma, jazykova_mutacia,"
+                 " rozsah, datum_vydania, autor, vydavatel, popis, isbn, cena, vekova_dostupnost)"
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -96,16 +97,16 @@ class DimTovarLoader(BaseLoader):
 class DimPobockaLoader(BaseLoader):
     def __init__(self):
         print "INIT DIM POBOCKA LOADER"
-        self.__key__ = "['id_zamestnanca', 'mesto', 'okres', 'kraj', 'adresa', 'tel_kontakt', 'id_manazera', 'mail']"
+        self.__key__ = "['mesto', 'okres', 'kraj', 'adresa', 'telefonne_cislo', 'mail']"
         BaseLoader.__init__(self)
         
     def load(self,elements):
         
         curA = self.conx.cursor()
-        query = ("insert into DIM_Pobocka(ID_ZAMESTNANCA,Mesto,Okres,Kraj,Adresa,Tel_Kontakt,ID_Manazera,mail)"
-                 "values(%s,%s,%s,%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO pobocka_dim(mesto, okres, kraj, adresa, telefonne_cislo, mail)"
+                 "VALUES (%s, %s, %s, %s, %s, %s)")
         for item in elements:
-            curA.execute(query,(item.pop(0),item.pop(0),item.pop(0),item.pop(0),item.pop(0),item.pop(0),item.pop(0),item.pop(0)))
+            curA.execute(query,item)
         self.conx.commit()
         self.conx.close()
     def getKey(self):
@@ -114,13 +115,14 @@ class DimPobockaLoader(BaseLoader):
 class DimZakaznikLoader(BaseLoader):
     def __init__(self):
         print "INIT DIM ZAKAZNIK LOADER"
-        self.__key__ = "['typ_zakaznika', 'pravna_forma', 'nazov_meno', 'adresa', 'mesto', 'tel_kontakt', 'mail', 'bankove_spojenie', 'ico', 'dic']"            
+        self.__key__ = "['pravna_forma', 'nazov_meno', 'adresa', 'mesto', 'okres', 'kraj', 'telefonne_cislo', 'mail', 'bankove_spojenie', 'ico', 'dic']"            
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into DIM_Zakaznik(typ_zakaznika,Pravna_forma,Nazov_Meno,Adresa,Mesto,Tel_kontakt,mail,Bankove_spojenie,ICO,DIC)"
-                 "values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO zakaznik_dim(pravna_forma, nazov_meno, adresa, mesto, okres,"
+                 " kraj, telefonne_cislo, mail, bankove_spojenie, ico, dic)"
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -132,13 +134,13 @@ class DimZakaznikLoader(BaseLoader):
 class DimFakturaLoader(BaseLoader):
     def __init__(self):
         print "INIT DIM FAKTURA LOADER"
-        self.__key__ = "['xml_generated', 'vystavena', 'zaplatena']"
+        self.__key__ = "['telo_faktury', 'vystavena', 'zaplatena']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into DIM_Faktura(XML_generated,vystavena,zaplatena)"
-                 "values(%s,%s,%s)")
+        query = ("INSERT INTO faktura_dim(telo_faktury, vystavena, zaplatena)"
+                 "VALUES (%s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -150,13 +152,14 @@ class DimFakturaLoader(BaseLoader):
 class FaktSluzbyZakaznikomLoader(BaseLoader):
     def __init__(self):
         print "INIT FAKT SLUZBY ZAKAZNIKOM LOADER"
-        self.__key__= "['cas', 'id_tovaru', 'id_zamestnanca', 'id_pobocky', 'id_zakaznika', 'popis', 'text_dotazu', 'text_odpovede', 'uspesne_vybavenie']"
+        self.__key__= "['id_cas', 'id_tovar', 'id_zamestnanec', 'id_pobocka', 'id_zakaznik', 'druh_otazky', 'text_otazky', 'text_odpovede', 'uspesne_vybavenie']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into FAKT_Sluzby_zakaznikom(Cas,ID_Tovaru,ID_Zamestnanca,ID_Pobocky,ID_Zakaznika,Popis,Text_dotazu,Text_odpovede,Uspesne_vybavenie)"
-                 "values(%s,%s,%s,%s,%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO sluzby_zakaznikom_fakt(id_cas, id_tovar, id_zamestnanec, id_pobocka, id_zakaznik, druh_otazky, "
+                 "text_otazky, text_odpovede, uspesne_vybavenie)"
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -168,12 +171,13 @@ class FaktSluzbyZakaznikomLoader(BaseLoader):
 class FaktSkladLoader(BaseLoader):
     def __init__(self):
         print "INIT FAKT SKLAD LOADER"
-        self.__key__ = "['id_zamestnanca', 'id_pobocky', 'id_tovaru', 'cas', 'pocet_kusov', 'dostupnost_tovaru']"
+        self.__key__ = "['id_cas', 'id_pobocka', 'id_tovar', 'id_zamestnanec', 'pocet_kusov', 'dostupnost_tovaru']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("insert into fakt_sklad(id_zamestnanca,id_pobocky,id_tovaru,cas,pocet_kusov,dostupnost_tovaru) values (%s,%s,%s,%s,%s,%s)")
+        query = ("INSERT INTO sklad_fakt(id_cas, id_pobocka, id_tovar, id_zamestnanec, pocet_kusov, dostupnost_tovaru)"
+                 "VALUES (%s, %s, %s, %s, %s, %s);")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -185,13 +189,14 @@ class FaktSkladLoader(BaseLoader):
 class FaktObjednavkaLoader(BaseLoader):
     def __init__(self):
         print "INIT FAKT OBJEDNAVKA LOADER"
-        self.__key__ = "['id_faktury', 'id_zamestnanca', 'id_tovaru', 'cas', 'id_objednavky', 'suma', 'vybavenie', 'poznamka', 'prevzatie', 'platba', 'stav_objednavky']"
+        self.__key__ = "['id_faktura', 'id_zamestnanec', 'id_tovar', 'id_zakaznik', 'id_cas', 'id_pobocka', 'suma', 'naklady', 'vybavenie', 'poznamka', 'prevzatie', 'platba', 'stav_objednavky']"
         BaseLoader.__init__(self)
         
     def load(self,elements):
         curA = self.conx.cursor()
-        query = ("INSERT INTO fakt_objednavka(id_faktury, id_zamestnanca, id_tovaru, cas, id_objednavky,"+
-                 "suma, vybavenie, poznamka, prevzatie, platba, stav_objednavky)VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
+        query = ("INSERT INTO objednavka_fakt(id_faktura, id_zamestnanec, id_tovar, id_zakaznik, id_cas, id_pobocka, "
+                 "suma, naklady, vybavenie, poznamka, prevzatie, platba, stav_objednavky)"
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -203,12 +208,12 @@ class FaktObjednavkaLoader(BaseLoader):
 class FaktDodavkaLoader(BaseLoader):
     def __init__(self):
         print "INIT FAKT DODAVKA LOADER"
-        self.__key__ = "['id_zamestnanca', 'id_tovaru', 'id_dodavatela', 'cas', 'poznamka', 'pocet_ks']"
+        self.__key__ = "['id_zamestnanec', 'id_dodavatel', 'id_cas', 'id_tovar', 'poznamka', 'pocet_kusov']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("INSERT INTO fakt_dodavka(id_zamestnanca, id_tovaru, id_dodavatela, cas, poznamka, pocet_ks)"+
+        query = ("INSERT INTO dodavka_fakt(id_zamestnanec, id_dodavatel, id_cas, id_tovar, poznamka, pocet_kusov)"
                  "VALUES (%s, %s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
@@ -221,13 +226,14 @@ class FaktDodavkaLoader(BaseLoader):
 class FaktReklamaciaLoader(BaseLoader):
     def __init__(self):
         print "INIT FAKT REKLAMACIA LOADER"
-        self.__key__ = "['id_dodavatela', 'id_zamestnanca', 'cas', 'popis_chyby', 'uznanie', 'vybavenie', 'zdovodnenie', 'pocet_ks']"
+        self.__key__ = "['id_zakaznik', 'id_zamestnanec', 'vybavuje_dodavatel', 'id_cas', 'id_tovar', 'popis_chyby', 'uznanie', 'vybavenie', 'zdovodnenie', 'pocet_kusov']"
         BaseLoader.__init__(self)
         
     def load(self, elements):
         curA = self.conx.cursor()
-        query = ("INSERT INTO fakt_reklamacia(id_dodavatela, id_zamestnanca, cas, popis_chyby,"+
-                 " uznanie, vybavenie, zdovodnenie, pocet_ks)VALUES (%s, %s, %s, %s, %s, %s, %s, %s)")
+        query = ("INSERT INTO reklamacia_fakt(id_zakaznik, id_zamestnanec, vybavuje_dodavatel, id_cas, id_tovar, "
+                 "popis_chyby, uznanie, vybavenie, zdovodnenie, pocet_kusov)"
+                 "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)")
         for item in elements:
             curA.execute(query,item)
         self.conx.commit()
@@ -235,3 +241,20 @@ class FaktReklamaciaLoader(BaseLoader):
     
     def getKey(self):
         return self.__key__
+    
+class FaktZamestnanecPobockaLoader(BaseLoader):
+    def __init__(self):
+        print "INIT ZAMESTNANEC POBOCKA LOADER"
+        self.__key__ = "['id_zamestnanec', 'id_pobocka']"
+        BaseLoader.__init__(self)
+    def load(self, elements):
+        curA = self.conx.cursor()
+        query = ("INSERT INTO zamestnanec_pobocka_fakt(id_zamestnanec, id_pobocka)"
+                 "VALUES (%s, %s);")
+        for item in elements:
+            curA.execute(query,item)
+        self.conx.commit()
+        self.conx.close()
+    def getKey(self):
+        return self.__key__
+
