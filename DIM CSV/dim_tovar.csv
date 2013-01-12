@@ -1,0 +1,452 @@
+kategoria,nazov_tovaru,platforma,jazykova_mutacia,Rozsah,datum_vydania,autor,vydavatel,popis,isbn,cena,vekova_dostupnost
+hry,River Raid,ps3,CZ,1cd,2013-01-12 17:54:27.158239,Bacohl,Blizzard,"eleifend vitae, erat. Vivamus nisi. Mauris nulla.",14141455047085,30.00       ,15
+hry,Pitfall!,xbox,EN,1cd,2013-01-13 17:54:27.158239,Balati,Blizzard,orci. Donec nibh. Quisque nonummy,29858517330444,20.00       ,12
+hry,Pac-Man,wii,EN,1cd,2013-01-14 17:54:27.158239,Basden,Electronic Arts,"enim. Sed nulla ante, iaculis nec, eleifend non,",71595737182239,22.00       ,12
+hry,Missile Command,wii,EN,1cd,2013-01-15 17:54:27.158239,Bedic,Valve,"sagittis felis. Donec tempor, est ac mattis",21541390917348,30.00       ,15
+hry,Megamania,wii,EN,1cd,2013-01-16 17:54:27.158239,Beson,Electronic Arts,dolor vitae dolor. Donec fringilla. Donec feugiat metus,79350846673765,43.00       ,0
+hry,Kaboom!,wii,EN,1cd,2013-01-17 17:54:27.158239,Bewul,Electronic Arts,libero. Proin mi. Aliquam gravida mauris,522163463471,39.00       ,0
+hry,E.T. the Extra-Terrestrial,xbox,EN,1cd,2013-01-18 17:54:27.158239,Biston,Sega,"magna sed dui. Fusce aliquam,",72041392248811,51.00       ,18
+hry,Demon Attack,xbox,EN,1cd,2013-01-19 17:54:27.158239,Boaldelr,Atari,"id, erat. Etiam vestibulum massa rutrum magna.",68769391465929,34.00       ,7
+hry,Cosmic Ark,wii,EN,1cd,2013-01-20 17:54:27.158239,Breanon,Sega,"enim nisl elementum purus, accumsan interdum",30012164566704,53.00       ,7
+hry,Atlantis,ps3,EN,1cd,2013-01-21 17:54:27.158239,Bredock,Blizzard,Curae; Phasellus ornare. Fusce,62631300691156,53.00       ,12
+hry,Asteroids,ps3,EN,1cd,2013-01-22 17:54:27.158239,Bristan,Atari,"Fusce aliquam, enim nec tempus",8648651825382,54.00       ,7
+hry,Adventure,xbox,EN,1cd,2013-01-23 17:54:27.158239,Busma,Blizzard,"mattis ornare, lectus ante",18771302702404,49.00       ,0
+hry,Halo: Combat Evolved,wii,EN,1cd,2013-01-24 17:54:27.158239,Caelholdt,Atari,Phasellus fermentum convallis ligula. Donec luctus aliquet odio.,55163702463289,44.00       ,7
+hry,Tom Clancy's Splinter Cell,ps3,EN,1cd,2013-01-25 17:54:27.158239,Camchak,Electronic Arts,morbi tristique senectus et netus et malesuada,56165946259061,41.00       ,15
+hry,Fable,wii,EN,1cd,2013-01-26 17:54:27.158239,Casden,Atari,vehicula risus. Nulla eget metus eu erat,56501675477841,26.00       ,7
+hry,Project Gotham Racing,xbox,EN,2cd,2013-01-27 17:54:27.158239,Celorn,Electronic Arts,neque. In ornare sagittis felis. Donec,2169234281530,20.00       ,12
+hry,Grand Theft Auto Double Pack,wii,EN,2cd,2013-01-28 17:54:27.158239,Cerdern,Blizzard,convallis ligula. Donec luctus aliquet odio.,59205817583961,38.00       ,15
+hry,Star Wars: Knights of the Old Republic,xbox,EN,2cd,2013-01-29 17:54:27.158239,Cevelt,Blizzard,"vitae, posuere at, velit. Cras lorem",70283352697879,44.00       ,0
+hry,Counter-Strike,wii,EN,2cd,2013-01-30 17:54:27.158239,Chidak,Atari,"dui, semper et, lacinia vitae,",31990206014507,33.00       ,15
+hry,Grand Theft Auto: San Andreas,wii,EN,2cd,2013-01-31 17:54:27.158239,Ciroc,Valve,"lorem, luctus ut, pellentesque eget, dictum placerat,",46827110573260,38.00       ,15
+hry,Need for Speed: Underground 2,xbox,EN,2cd,2013-02-01 17:54:27.158239,Connell,Electronic Arts,"montes, nascetur ridiculus mus. Proin vel",4945945242256,38.00       ,0
+hry,Madden NFL 2005,ps3,EN,2cd,2013-02-02 17:54:27.158239,Cosdeer,Blizzard,sem egestas blandit. Nam nulla,76422350471044,49.00       ,15
+hry,Madden NFL 06,wii,EN,2cd,2013-02-03 17:54:27.158239,Cydare,Electronic Arts,"tincidunt nibh. Phasellus nulla. Integer vulputate, risus",21535480426668,46.00       ,7
+hry,Call of Duty 2: Big Red One,wii,EN,2cd,2013-02-04 17:54:27.158239,Cyton,Sega,Maecenas malesuada fringilla est. Mauris eu turpis. Nulla,92578991251722,21.00       ,7
+hry,ESPN NFL 2K5,xbox,EN,2cd,2013-02-05 17:54:27.158239,Daburn,Blizzard,nec urna et arcu imperdiet ullamcorper. Duis at,87708243733159,26.00       ,7
+hry,The Elder Scrolls III: Morrowind,ps3,EN,2cd,2013-02-06 17:54:27.158239,Dakamon,Electronic Arts,amet diam eu dolor egestas rhoncus. Proin,82874342243595,29.00       ,7
+hry,Dead or Alive 3,xbox,EN,2cd,2013-02-07 17:54:27.158239,Dalmarn,Sega,nulla. In tincidunt congue turpis. In,32819527771404,28.00       ,15
+hry,Star Wars: Battlefront,wii,EN,2cd,2013-02-08 17:54:27.158239,Darkkon,Electronic Arts,ipsum. Donec sollicitudin adipiscing,65447322664918,39.00       ,0
+hry,Star Wars: Battlefront II,wii,EN,2cd,2013-02-09 17:54:27.158239,Darmor,Blizzard,nunc. In at pede. Cras vulputate,41483293821592,37.00       ,0
+hry,Tom Clancy's Ghost Recon,ps3,EN,2cd,2013-02-10 17:54:27.158239,Dask,Sega,Fusce fermentum fermentum arcu. Vestibulum,9765213535100,21.00       ,15
+hry,Need for Speed: Underground,xbox,CZ,2cd,2013-02-11 17:54:27.158239,Derik,Atari,"Phasellus nulla. Integer vulputate, risus a ultricies adipiscing,",11962346649461,20.00       ,15
+hry,Amnesia: A Machine for Pigs ,xbox,EN,2cd,2013-02-12 17:54:27.158239,Dessfar,Blizzard,"lorem, luctus ut, pellentesque eget, dictum placerat,",5405160483029,48.00       ,15
+hry,Moebius ,wii,EN,2cd,2013-02-13 17:54:27.158239,Doceon,Electronic Arts,"molestie pharetra nibh. Aliquam ornare, libero at",22934996332972,21.00       ,18
+hry,Double Fine Adventure ,ps3,EN,2cd,2013-02-14 17:54:27.158239,Dorn,Blizzard,et libero. Proin mi. Aliquam gravida,44449844015498,23.00       ,12
+hry,"The Sims 3 70s, 80s, & 90s Stuff ",wii,EN,2cd,2013-02-15 17:54:27.158239,Drakone,Valve,luctus et ultrices posuere cubilia Curae; Phasellus,41864808795038,23.00       ,7
+hry,The Sims 3 University Life ,wii,EN,2cd,2013-02-16 17:54:27.158239,Dritz,Atari,arcu. Vivamus sit amet risus.,1045485330345,44.00       ,7
+hry,Fieldrunners 2 ,wii,EN,2cd,2013-02-17 17:54:27.158239,Dryn,Electronic Arts,consequat enim diam vel arcu. Curabitur,74326190999794,42.00       ,12
+hry,The Walking Dead: Survival Instinct ,ps3,EN,2cd,2013-02-18 17:54:27.158239,Duran,Blizzard,lobortis quam a felis ullamcorper viverra. Maecenas iaculis,83284320716146,54.00       ,0
+hry,The Showdown Effect ,ps3,EN,2cd,2013-02-19 17:54:27.158239,Dyfar,Atari,"Donec elementum, lorem ut aliquam",49124540741740,23.00       ,0
+hry,DmC: Devil May Cry ,xbox,EN,2cd,2013-02-20 17:54:27.158239,Efamar,Valve,Phasellus vitae mauris sit amet lorem semper,43426701032858,40.00       ,18
+hry,Arctic Combat ,ps3,EN,2cd,2013-02-21 17:54:27.158239,Eiridan,Valve,Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla,90430654105846,52.00       ,7
+hry,Fly'N ,ps3,EN,2cd,2013-02-22 17:54:27.158239,Elik,Blizzard,pede. Cum sociis natoque penatibus et,58702228930073,21.00       ,12
+hry,Street Fighter X Mega Man ,xbox,EN,2cd,2013-02-23 17:54:27.158239,Enbane,Sega,orci quis lectus. Nullam,82173603268473,33.00       ,7
+hry,Mutant Mudds ,ps3,EN,2cd,2013-02-24 17:54:27.158239,Enoon,Valve,"et, magna. Praesent interdum ligula eu enim.",21080882011042,41.00       ,0
+hry,Dirty Bomb ,ps3,EN,2cd,2013-02-25 17:54:27.158239,Erim,Valve,convallis convallis dolor. Quisque tincidunt pede,2595768372640,43.00       ,18
+hry,Rift: Storm Legion ,ps3,EN,2cd,2013-02-26 17:54:27.158239,Espardo,Electronic Arts,luctus lobortis. Class aptent taciti sociosqu ad litora,1432423206327,40.00       ,15
+hry,EverQuest: Rain of Fear ,xbox,EN,2cd,2013-02-27 17:54:27.158239,Etdar,Blizzard,"magnis dis parturient montes, nascetur ridiculus mus. Proin",37049534203675,41.00       ,7
+hry,Dark Shadows - Army of Evil ,xbox,EN,2cd,2013-02-28 17:54:27.158239,Etran,Electronic Arts,magna et ipsum cursus vestibulum. Mauris,31633076499705,26.00       ,0
+hry,Baldur's Gate Enhanced Edition ,wii,EN,2cd,2013-03-01 17:54:27.158239,Gafolern,Sega,adipiscing elit. Curabitur sed tortor. Integer aliquam adipiscing,2349399923237,29.00       ,15
+hry,Sacred Citadel ,wii,EN,2cd,2013-03-02 17:54:27.158239,Galiron,Blizzard,odio vel est tempor bibendum. Donec,80212856932321,55.00       ,15
+hry,Little Inferno ,ps3,EN,2cd,2013-03-03 17:54:27.158239,Gemardt,Atari,"elit sed consequat auctor, nunc",13716066455389,45.00       ,12
+hry,Ace of Spades ,xbox,EN,2cd,2013-03-04 17:54:27.158239,Gerirr,Valve,"sem mollis dui, in sodales elit",51642955811743,47.00       ,7
+hry,The Critter Chronicles ,xbox,EN,2cd,2013-03-05 17:54:27.158239,Gibolock,Valve,"mattis semper, dui lectus",17520247304769,49.00       ,15
+hry,Sacred 3 ,xbox,EN,2cd,2013-03-06 17:54:27.158239,Gom,Atari,"dolor. Fusce mi lorem,",14975618573394,36.00       ,15
+hry,Big Sky: Infinity ,wii,EN,2cd,2013-03-07 17:54:27.158239,Gothikar,Atari,"sit amet luctus vulputate, nisi",13720251599803,49.00       ,18
+hry,Emergency 2013 ,wii,EN,2cd,2013-03-08 17:54:27.158239,Gryn,Sega,Phasellus at augue id ante dictum cursus.,66381257975558,20.00       ,18
+hry,Heroes & Generals ,xbox,EN,2cd,2013-03-09 17:54:27.158239,Guthale,Valve,lorem vitae odio sagittis semper.,94308138380979,45.00       ,12
+hry,Rambo The Video Game ,wii,EN,2cd,2013-03-10 17:54:27.158239,Gyin,Atari,Integer urna. Vivamus molestie dapibus ligula.,78244526883869,21.00       ,12
+hry,Dreamfall Chapters ,ps3,EN,1cd,2013-03-11 17:54:27.158239,Galain,Blizzard,"enim. Suspendisse aliquet, sem ut cursus luctus,",31826124253633,39.00       ,18
+hry,Angry Birds Star Wars ,xbox,EN,1cd,2013-03-12 17:54:27.158239,Gauthus,Sega,"Integer vitae nibh. Donec est mauris, rhoncus id,",51339584100094,27.00       ,12
+hry,Pid ,ps3,EN,1cd,2013-03-13 17:54:27.158239,Gemedes,Sega,luctus aliquet odio. Etiam,85327143378531,22.00       ,0
+hry,Zombie Driver HD ,xbox,EN,1cd,2013-03-14 17:54:27.158239,Gib,Valve,Integer mollis. Integer tincidunt aliquam,17578808483694,40.00       ,15
+hry,Hotline Miami ,xbox,EN,1cd,2013-03-15 17:54:27.158239,Gith,Valve,"vulputate, nisi sem semper erat,",68854272426794,55.00       ,7
+hry,Lucius ,wii,EN,1cd,2013-03-16 17:54:27.158239,Gothar,Sega,"mollis non, cursus non, egestas a, dui.",22549118926300,24.00       ,7
+hry,Farming Simulator 2013 ,xbox,EN,1cd,2013-03-17 17:54:27.158239,Grimie,Electronic Arts,"est, congue a, aliquet vel, vulputate eu, odio.",90469324596022,44.00       ,18
+hry,Darkfall: Unholy Wars ,ps3,EN,1cd,2013-03-18 17:54:27.158239,Gustov,Atari,"rhoncus id, mollis nec, cursus a,",71604253372399,23.00       ,0
+hry,Giana Sisters: Twisted Dreams ,wii,EN,1cd,2013-03-19 17:54:27.158239,Gybrush,Atari,odio. Nam interdum enim non nisi. Aenean eget,60960329644240,25.00       ,18
+filmy,Na ceste,romanticky,"SK,CZ,EN,DE",144min,2013-03-20 17:54:27.158239,Jackson,Columbia,"nunc est, mollis non, cursus non, egestas a,",26208912266638,10.00       ,7
+filmy,Na druhej strane,animovany,"SK,CZ,EN,DE",144min,2013-03-21 17:54:27.158239,Janus,Metro Goldwyn Mayer,non nisi. Aenean eget metus. In,93863724154808,10.00       ,12
+filmy,Na hrane temnoty,dokument,"SK,CZ,EN,DE",144min,2013-03-22 17:54:27.158239,Jesco,Disney,"nisi sem semper erat, in consectetuer ipsum",5832140152429,10.00       ,18
+filmy,Na lince je vrah,mysteriozny,"SK,CZ,EN,DE",144min,2013-03-23 17:54:27.158239,Jex,Dreamworks,amet massa. Quisque porttitor eros nec tellus. Nunc,6809663387541,10.00       ,18
+filmy,Na mamuta!,akcny,"SK,CZ,EN,DE",144min,2013-03-24 17:54:27.158239,Jin,Dreamworks,Mauris ut quam vel,35930872013166,10.00       ,7
+filmy,Na mamuta!,mysteriozny,"SK,CZ,EN,DE",144min,2013-03-25 17:54:27.158239,Jun,Lionsgate,"Nunc mauris sapien, cursus in, hendrerit",59566365029316,10.00       ,12
+filmy,Na odstrel,dobrodruzny,"SK,CZ,EN,DE",144min,2013-03-26 17:54:27.158239,Kafar,20th Century fox,quis turpis vitae purus gravida sagittis. Duis,86821851634647,10.00       ,7
+filmy,Na rozcestí,komedia,"SK,CZ,EN,DE",144min,2013-03-27 17:54:27.158239,Keran,Pixar,"leo, in lobortis tellus justo sit amet",81340906262292,10.00       ,12
+filmy,Na sever,horor,"SK,CZ,EN,DE",144min,2013-03-28 17:54:27.158239,Kethren,Disney,Morbi accumsan laoreet ipsum. Curabitur,61957778530264,10.00       ,0
+filmy,Na sever severozápadnou dráhou,dobrodruzny,"SK,CZ,EN,DE",144min,2013-03-29 17:54:27.158239,Kiden,Dreamworks,auctor velit. Aliquam nisl. Nulla,90272613520893,10.00       ,0
+filmy,Na svätého Valentína,pre deti,"SK,CZ,EN,DE",144min,2013-03-30 17:54:27.158239,Kildarien,Warner Bros,nec quam. Curabitur vel lectus. Cum sociis natoque,8570437106746,10.00       ,15
+filmy,Na túto nemám,akcny,"SK,CZ,EN,DE",144min,2013-03-31 17:54:27.158239,Kip,Tristar,"ullamcorper. Duis cursus, diam at pretium",90181464087507,10.00       ,0
+filmy,Na vlásku,pre deti,"SK,CZ,EN,DE",144min,2013-04-01 17:54:27.158239,Kolmorn,Pixar,"sed dolor. Fusce mi lorem, vehicula et,",39048528056262,10.00       ,15
+filmy,Na území žen,akcny,"SK,CZ,EN,DE",144min,2013-04-02 17:54:27.158239,Lackus,Tristar,"et magnis dis parturient montes, nascetur ridiculus",90991183547624,10.00       ,15
+filmy,Nabiť a zabiť,scifi,"SK,CZ,EN,DE",144min,2013-04-03 17:54:27.158239,Lafornon,Paramount,"orci, consectetuer euismod est arcu ac orci.",23253302920977,10.00       ,15
+filmy,Najkrajší čas,komedia,"SK,CZ,EN,DE",144min,2013-04-04 17:54:27.158239,Ledale,Mediacom,"ligula elit, pretium et, rutrum non,",14914906189637,10.00       ,18
+filmy,Najlepší z Brooklynu,horor,"SK,CZ,EN,DE",144min,2013-04-05 17:54:27.158239,Lephidiles,Columbia,"Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer",36259402814735,10.00       ,7
+filmy,Najlepší z Brooklynu,dobrodruzny,"SK,CZ,EN,DE",144min,2013-04-06 17:54:27.158239,Letor,Tristar,"libero. Integer in magna. Phasellus dolor elit,",61386291297387,10.00       ,18
+filmy,Narnia: Dobrodružstvá lode Ranný pútnik,akcny,"SK,CZ,EN,DE",144min,2013-04-07 17:54:27.158239,Jalil,Mediacom,Aenean eget magna. Suspendisse tristique neque venenatis lacus.,1437687190915,10.00       ,18
+filmy,"Narnia: Lev, šatník a čarodejnica",akcny,"SK,CZ,EN,DE",144min,2013-04-08 17:54:27.158239,Jayco,Paramount,"auctor vitae, aliquet nec, imperdiet nec, leo.",75147423724921,10.00       ,12
+filmy,Narnia: Princ Kaspian,scifi,"SK,CZ,EN,DE",144min,2013-04-09 17:54:27.158239,Jespar,Lionsgate,vitae aliquam eros turpis non enim. Mauris quis,20932360057258,12.00       ,15
+filmy,Nebezpečná metóda,dobrodruzny,"SK,CZ,EN,DE",144min,2013-04-10 17:54:27.158239,Jib,Paramount,ipsum cursus vestibulum. Mauris magna. Duis,26391438861586,12.00       ,7
+filmy,Neboj sa temnoty,dobrodruzny,"SK,CZ,EN,DE",144min,2013-04-11 17:54:27.158239,Juktar,20th Century fox,"pharetra nibh. Aliquam ornare, libero",50881714084142,12.00       ,0
+filmy,Nebojte se tmy,scifi,"SK,CZ,EN,DE",144min,2013-04-12 17:54:27.158239,Justal,Mediacom,"facilisis, magna tellus faucibus",39055457886747,12.00       ,18
+filmy,Nech vojde ten pravý,horor,"SK,CZ,EN,DE",144min,2013-04-13 17:54:27.158239,Kaldar,Paramount,egestas nunc sed libero.,33484276990075,12.00       ,15
+filmy,Nech žijú ritieri,mysteriozny,"SK,CZ,EN,DE",120min,2013-04-14 17:54:27.158239,Kesad,Lionsgate,at sem molestie sodales. Mauris,21751717164050,12.00       ,12
+filmy,"Nechápem, ako to dokáže",mysteriozny,"SK,CZ,EN,DE",120min,2013-04-15 17:54:27.158239,Kib,Pixar,"adipiscing, enim mi tempor lorem,",80813208584575,12.00       ,12
+filmy,Nedodržaný sl’ub,drama,"SK,CZ,EN,DE",120min,2013-04-16 17:54:27.158239,Kilbas,Mediacom,sed tortor. Integer aliquam adipiscing lacus. Ut,54086738555719,12.00       ,12
+filmy,Nedodržaný sl’ub,horor,"SK,CZ,EN,DE",120min,2013-04-17 17:54:27.158239,Kimdar,Tristar,Mauris magna. Duis dignissim tempor,87967881189664,12.00       ,18
+filmy,Nedodržaný sľub,akcny,"SK,CZ,EN,DE",120min,2013-04-18 17:54:27.158239,Kirder,Pixar,urna. Ut tincidunt vehicula risus.,14978055893348,12.00       ,12
+filmy,Neds,komedia,"SK,CZ,EN,DE",120min,2013-04-19 17:54:27.158239,Kyrad,Disney,metus vitae velit egestas lacinia.,16893850632721,12.00       ,12
+filmy,Nehanební bastardi,akcny,"SK,CZ,EN,DE",120min,2013-04-20 17:54:27.158239,Lacspor,Lionsgate,Aliquam ultrices iaculis odio. Nam interdum enim,39653622687471,12.00       ,7
+filmy,Nehanební bastardi,dokument,"SK,CZ,EN,DE",120min,2013-04-21 17:54:27.158239,Lahorn,Pixar,sapien imperdiet ornare. In faucibus. Morbi vehicula.,81098881742384,12.00       ,12
+filmy,Nejako sa to komplikuje,horor,"SK,CZ,EN,DE",120min,2013-04-22 17:54:27.158239,Leit,Pixar,"pede, malesuada vel, venenatis vel, faucibus",10659203835413,12.00       ,0
+filmy,Největší z Čechů,mysteriozny,"SK,CZ,EN,DE",120min,2013-04-23 17:54:27.158239,Lerin,Columbia,non dui nec urna suscipit nonummy. Fusce fermentum,98570568459192,12.00       ,0
+filmy,Nekecaj a pádluj!,dobrodruzny,"SK,CZ,EN,DE",120min,2013-04-24 17:54:27.158239,Lidorn,Columbia,erat neque non quam. Pellentesque habitant morbi,57668228521366,12.00       ,0
+filmy,Nekonečný príbeh,romanticky,"SK,CZ,EN,DE",120min,2013-04-25 17:54:27.158239,Jamik,Dreamworks,Mauris blandit enim consequat purus.,88076557115575,12.00       ,15
+filmy,Nemrtví,pre deti,"SK,CZ,EN,DE",120min,2013-04-26 17:54:27.158239,Jaython,Pixar,natoque penatibus et magnis dis parturient,76724493711242,12.00       ,18
+filmy,Nenarodení,komedia,"SK,CZ,EN,DE",120min,2013-04-27 17:54:27.158239,Jethil,Warner Bros,"ligula elit, pretium et, rutrum non,",60948925572698,12.00       ,0
+filmy,Nenávidím Deň Sv. Valentína,pre deti,"SK,CZ,EN,DE",120min,2013-04-28 17:54:27.158239,Jibar,Lionsgate,"quis, pede. Praesent eu dui.",16493218601322,12.00       ,18
+filmy,Není zač,romanticky,"SK,CZ,EN,DE",120min,2013-04-29 17:54:27.158239,Julthor,Mediacom,non enim commodo hendrerit.,66527566592064,12.00       ,18
+filmy,Neopúšťaj ma,dokument,"SK,CZ,EN,DE",120min,2013-04-30 17:54:27.158239,,Warner Bros,ultricies dignissim lacus. Aliquam rutrum lorem ac risus.,66383776995606,12.00       ,7
+filmy,Nepodplatiteľní,animovany,"SK,CZ,EN,DE",120min,2013-05-01 17:54:27.158239,Kellan,Columbia,"ante. Nunc mauris sapien, cursus in,",2969586053545,12.00       ,7
+filmy,Neporazitelný: Vykoupení,dokument,"SK,CZ,EN,DE",120min,2013-05-02 17:54:27.158239,Kesmon,Lionsgate,"augue, eu tempor erat neque",51928311088073,12.00       ,7
+filmy,Neporaziteľní: Vykúpenie,dokument,"SK,CZ,EN,DE",120min,2013-05-03 17:54:27.158239,Kibidon,Columbia,tortor. Nunc commodo auctor,67060039516679,12.00       ,12
+filmy,Nepriateľ pod ochranou,dokument,"SK,CZ,EN,DE",120min,2013-05-04 17:54:27.158239,Kilburn,Columbia,"in magna. Phasellus dolor elit, pellentesque a, facilisis",12474402714893,12.00       ,18
+filmy,Nestyda,animovany,"SK,CZ,EN,DE",120min,2013-05-05 17:54:27.158239,Kinorn,Columbia,orci. Ut sagittis lobortis mauris. Suspendisse,97755725855371,12.00       ,12
+filmy,Nesvadbovo,dokument,"SK,CZ,EN,DE",120min,2013-05-06 17:54:27.158239,Kodof,Warner Bros,molestie sodales. Mauris blandit enim consequat,95017581994708,12.00       ,15
+filmy,Netvor,dokument,"SK,CZ,EN,DE",120min,2013-05-07 17:54:27.158239,,Warner Bros,"dolor sit amet, consectetuer adipiscing elit. Curabitur",50148903629485,12.00       ,12
+filmy,Neuveriteľné dobrodružstvá Adéle Blanc-Sec,pre deti,"SK,CZ,EN,DE",120min,2013-05-08 17:54:27.158239,Laderic,Columbia,quam. Curabitur vel lectus. Cum sociis natoque,86681798280274,12.00       ,15
+filmy,Neuveriteľný Hulk,akcny,"SK,CZ,EN,DE",120min,2013-05-09 17:54:27.158239,Laracal,Metro Goldwyn Mayer,Sed malesuada augue ut lacus.,98348597490120,12.00       ,7
+filmy,Nevesta na dobierku,dobrodruzny,"SK,CZ,EN,DE",120min,2013-05-10 17:54:27.158239,Lephar,20th Century fox,interdum ligula eu enim. Etiam imperdiet,61657339037318,12.00       ,0
+filmy,Nevestinec,horor,"SK,CZ,EN,DE",120min,2013-05-11 17:54:27.158239,Lesphares,Paramount,"dictum mi, ac mattis velit justo",59357606293794,12.00       ,12
+filmy,Nevinnost,mysteriozny,"SK,CZ,EN,DE",120min,2013-05-12 17:54:27.158239,Lin,20th Century fox,"a, malesuada id, erat. Etiam",92554102441579,12.00       ,15
+filmy,"New York, milujem ťa",horor,"SK,CZ,EN,DE",120min,2013-05-13 17:54:27.158239,Baduk,Disney,egestas nunc sed libero. Proin sed,99758006703006,12.00       ,15
+filmy,Nezabudni na mňa,horor,"SK,CZ,EN,DE",120min,2013-05-14 17:54:27.158239,Barkydle,Tristar,Donec consectetuer mauris id sapien. Cras dolor,70162627839370,12.00       ,18
+filmy,Baaria,dokument,"SK,CZ,EN,DE",120min,2013-05-15 17:54:27.158239,Beck,Mediacom,"convallis est, vitae sodales",85074723830533,12.00       ,15
+filmy,Baby mama,pre deti,"SK,CZ,EN,DE",120min,2013-05-16 17:54:27.158239,Bein,Pixar,"porttitor tellus non magna. Nam ligula elit, pretium",64044117834673,12.00       ,7
+filmy,Bacha na balóny,horor,"SK,CZ,EN,DE",120min,2013-05-17 17:54:27.158239,Besurlde,Pixar,Quisque ac libero nec,94480465299029,12.00       ,18
+filmy,Balada o Nessie,pre deti,"SK,CZ,EN,DE",120min,2013-05-18 17:54:27.158239,Bildon,20th Century fox,vitae mauris sit amet lorem semper,66220374482316,12.00       ,12
+filmy,Balibo,animovany,"SK,CZ,EN,DE",120min,2013-05-19 17:54:27.158239,Boal,Dreamworks,"libero at auctor ullamcorper,",98093474949138,12.00       ,18
+filmy,Bankový kuriér,akcny,"SK,CZ,EN,DE",120min,2013-05-20 17:54:27.158239,Brakdern,Warner Bros,interdum. Sed auctor odio a purus. Duis,26782013488960,12.00       ,18
+filmy,Banksy: Exit Through the Gift Shop,dobrodruzny,"SK,CZ,EN,DE",120min,2013-05-21 17:54:27.158239,Bredin,Mediacom,vulputate ullamcorper magna. Sed eu eros. Nam,28617611185134,12.00       ,12
+filmy,Barbar Conan,scifi,"SK,CZ,EN,DE",120min,2013-05-22 17:54:27.158239,Brighton,Disney,"parturient montes, nascetur ridiculus mus. Proin vel",26353145259647,12.00       ,0
+filmy,Barry Munday,dokument,"SK,CZ,EN,DE",120min,2013-05-23 17:54:27.158239,Bue,Lionsgate,sed leo. Cras vehicula,51870597208394,12.00       ,0
+filmy,Basketbalistov denník,romanticky,"SK,CZ,EN,DE",120min,2013-05-24 17:54:27.158239,Bydern,Tristar,odio tristique pharetra. Quisque,42979222468627,12.00       ,18
+filmy,Bass Ackwards,pre deti,"SK,CZ,EN,DE",120min,2013-05-25 17:54:27.158239,Calden,Disney,pharetra. Nam ac nulla. In tincidunt congue turpis.,37589469967165,12.00       ,0
+filmy,Bastardi,drama,"SK,CZ,EN,DE",120min,2013-05-26 17:54:27.158239,Cardon,Mediacom,molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim.,55008977109578,12.00       ,18
+filmy,Batman vs. Red Hood,animovany,"SK,CZ,EN,DE",120min,2013-05-27 17:54:27.158239,Celbahr,Mediacom,vitae mauris sit amet lorem semper auctor.,20558147507574,12.00       ,7
+filmy,Batman začína,dokument,"SK,CZ,EN,DE",120min,2013-05-28 17:54:27.158239,Cemark,Dreamworks,vitae purus gravida sagittis. Duis,63019027995104,12.00       ,0
+filmy,Beastly,dobrodruzny,"SK,CZ,EN,DE",120min,2013-05-29 17:54:27.158239,Cether,Metro Goldwyn Mayer,"accumsan sed, facilisis vitae, orci. Phasellus dapibus",68389947084691,12.00       ,0
+filmy,Bella,dobrodruzny,"SK,CZ,EN,DE",120min,2013-05-30 17:54:27.158239,Chesmarn,Lionsgate,"nulla magna, malesuada vel, convallis in, cursus",8675339996057,12.00       ,15
+filmy,Bellflower,dokument,"SK,CZ,EN,DE",120min,2013-05-31 17:54:27.158239,Cipyar,Mediacom,ligula. Donec luctus aliquet odio. Etiam,55544770179565,12.00       ,0
+filmy,Bernard a Doris,animovany,"SK,CZ,EN,DE",120min,2013-06-01 17:54:27.158239,Colthan,Disney,Duis dignissim tempor arcu. Vestibulum ut,76875540879866,12.00       ,12
+filmy,Bez dychu,horor,"SK,CZ,EN,DE",120min,2013-06-02 17:54:27.158239,Cos,Tristar,Nullam scelerisque neque sed,82348982662832,12.00       ,12
+filmy,Bez súcitu,scifi,"SK,CZ,EN,DE",120min,2013-06-03 17:54:27.158239,Cusmirk,Lionsgate,Aenean massa. Integer vitae nibh. Donec est,49716681131010,12.00       ,7
+filmy,Bezstarostný sex,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-04 17:54:27.158239,Cythnar,Tristar,dapibus ligula. Aliquam erat,88771119002765,12.00       ,15
+filmy,Bibliotheque Pascal,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-05 17:54:27.158239,,Warner Bros,risus. Nunc ac sem ut dolor,69709515107338,12.00       ,0
+filmy,Biela smrť,pre deti,"SK,CZ,EN,DE",120min,2013-06-06 17:54:27.158239,Dak,Pixar,eu elit. Nulla facilisi. Sed neque.,35913794804916,12.00       ,7
+filmy,Biela stuha,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-07 17:54:27.158239,Dalburn,Dreamworks,justo sit amet nulla. Donec non,77137937453650,12.00       ,12
+filmy,Big Lebowski,mysteriozny,"SK,CZ,EN,DE",120min,2013-06-08 17:54:27.158239,Darkboon,Dreamworks,"lacinia at, iaculis quis, pede. Praesent eu",99835858542457,12.00       ,0
+filmy,"Big Mommas: Like Father, Like Son",pre deti,"SK,CZ,EN,DE",120min,2013-06-09 17:54:27.158239,Darkspur,Lionsgate,diam vel arcu. Curabitur ut odio vel est,36303541588032,12.00       ,7
+filmy,Bitch Slap,pre deti,"SK,CZ,EN,DE",120min,2013-06-10 17:54:27.158239,Dasbeck,20th Century fox,eros. Proin ultrices. Duis volutpat,69269104953596,12.00       ,12
+filmy,Bitter Feast,drama,"SK,CZ,EN,DE",120min,2013-06-11 17:54:27.158239,Defearon,20th Century fox,Ut nec urna et arcu imperdiet ullamcorper. Duis,95331645286765,12.00       ,18
+filmy,Bitva o Hill 60,akcny,"SK,CZ,EN,DE",120min,2013-06-12 17:54:27.158239,Desil,Warner Bros,Aenean euismod mauris eu,70749019114177,12.00       ,12
+filmy,Biutiful,romanticky,"SK,CZ,EN,DE",120min,2013-06-13 17:54:27.158239,Dismer,Warner Bros,"elit elit fermentum risus,",76361693338525,12.00       ,18
+filmy,Black Death,drama,"SK,CZ,EN,DE",120min,2013-06-14 17:54:27.158239,Dokoran,Warner Bros,"eu, euismod ac, fermentum vel,",38019859878082,12.00       ,7
+filmy,Blade,romanticky,"SK,CZ,EN,DE",120min,2013-06-15 17:54:27.158239,Drakoe,Tristar,"dolor sit amet, consectetuer adipiscing elit. Etiam",16982354958296,12.00       ,7
+filmy,Blade 2,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-16 17:54:27.158239,Drit,Warner Bros,Proin eget odio. Aliquam vulputate ullamcorper magna.,81210229088957,12.00       ,7
+filmy,Blade: Trinity,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-17 17:54:27.158239,Dryden,Pixar,"sagittis augue, eu tempor erat",94910903358207,12.00       ,15
+filmy,Blafuj ako Beckham,dokument,"SK,CZ,EN,DE",120min,2013-06-18 17:54:27.158239,Dukran,Mediacom,eget odio. Aliquam vulputate ullamcorper magna. Sed eu,59341561880978,12.00       ,15
+filmy,Blonďáček,romanticky,"SK,CZ,EN,DE",120min,2013-06-19 17:54:27.158239,Dusaro,Disney,eros. Nam consequat dolor vitae dolor. Donec fringilla.,83678599593841,12.00       ,15
+filmy,Blood and Bone,animovany,"SK,CZ,EN,DE",120min,2013-06-20 17:54:27.158239,Badeek,20th Century fox,ut eros non enim commodo hendrerit.,15875216877667,12.00       ,15
+filmy,Blood Out,dokument,"SK,CZ,EN,DE",120min,2013-06-21 17:54:27.158239,Baradeer,Paramount,"tellus, imperdiet non, vestibulum",64647226815418,12.00       ,0
+filmy,Blue Valentine,mysteriozny,"SK,CZ,EN,DE",120min,2013-06-22 17:54:27.158239,Bayde,Warner Bros,amet orci. Ut sagittis lobortis mauris. Suspendisse,35041926232010,12.00       ,7
+filmy,"Bláznivá, hlúpa láska",akcny,"SK,CZ,EN,DE",120min,2013-06-23 17:54:27.158239,Beeron,Columbia,a sollicitudin orci sem eget massa.,78832480716631,12.00       ,0
+filmy,Bobby Z,mysteriozny,"SK,CZ,EN,DE",120min,2013-06-24 17:54:27.158239,Besur,Columbia,arcu. Sed eu nibh,4030081908140,12.00       ,0
+filmy,Bobor,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-25 17:54:27.158239,Biedgar,Warner Bros,nibh sit amet orci. Ut sagittis lobortis mauris.,25194936326133,12.00       ,12
+filmy,Bojová loď,komedia,"SK,CZ,EN,DE",120min,2013-06-26 17:54:27.158239,Bithon,Pixar,pede nec ante blandit viverra.,77471411593401,12.00       ,0
+filmy,Born of Hope,horor,"SK,CZ,EN,DE",120min,2013-06-27 17:54:27.158239,Bolrock,Disney,"ante lectus convallis est, vitae sodales",64290394221658,12.00       ,12
+filmy,Bournovo ultimátum,dobrodruzny,"SK,CZ,EN,DE",120min,2013-06-28 17:54:27.158239,Bredere,Lionsgate,mus. Aenean eget magna. Suspendisse tristique neque venenatis,79156637049543,12.00       ,18
+filmy,Box,pre deti,"SK,CZ,EN,DE",120min,2013-06-29 17:54:27.158239,Breen,20th Century fox,"vitae nibh. Donec est mauris,",4479769064396,12.00       ,15
+filmy,Božský,akcny,"SK,CZ,EN,DE",120min,2013-06-30 17:54:27.158239,Buchmeid,Lionsgate,commodo ipsum. Suspendisse non leo. Vivamus nibh,94473639267207,12.00       ,15
+filmy,Bratia,pre deti,"SK,CZ,EN,DE",120min,2013-07-01 17:54:27.158239,Buthomar,Columbia,"ligula consectetuer rhoncus. Nullam velit dui, semper et,",85199579339304,12.00       ,0
+filmy,Brave,akcny,"SK,CZ,EN,DE",120min,2013-07-02 17:54:27.158239,Cainon,Tristar,vehicula. Pellentesque tincidunt tempus,79073556186344,12.00       ,12
+filmy,Brotherhood,scifi,"SK,CZ,EN,DE",120min,2013-07-03 17:54:27.158239,Camilde,Metro Goldwyn Mayer,Quisque tincidunt pede ac,65251350920269,12.00       ,15
+filmy,Bruno,komedia,"SK,CZ,EN,DE",120min,2013-07-04 17:54:27.158239,Cayold,Dreamworks,gravida. Praesent eu nulla at,66335308865042,12.00       ,18
+filmy,Bucky Larson: Born to Be a Star,horor,"SK,CZ,EN,DE",120min,2013-07-05 17:54:27.158239,Celthric,Disney,tincidunt nibh. Phasellus nulla.,49714966316237,12.00       ,0
+filmy,Bunny a býk,dobrodruzny,"SK,CZ,EN,DE",120min,2013-07-06 17:54:27.158239,Cespar,Paramount,"malesuada ut, sem. Nulla interdum. Curabitur dictum.",50616951360226,12.00       ,15
+filmy,Buried,akcny,"SK,CZ,EN,DE",120min,2013-07-07 17:54:27.158239,Chamon,Metro Goldwyn Mayer,"enim, gravida sit amet, dapibus id, blandit at,",26976681647964,12.00       ,15
+filmy,Burke and Hare,akcny,"SK,CZ,EN,DE",120min,2013-07-08 17:54:27.158239,Cibrock,Paramount,"luctus sit amet, faucibus ut, nulla. Cras",20170787749009,12.00       ,12
+filmy,Burning Bright,scifi,"SK,CZ,EN,DE",120min,2013-07-09 17:54:27.158239,Codern,Pixar,"a, magna. Lorem ipsum dolor sit amet, consectetuer",33650526117754,12.00       ,18
+filmy,Butch Cassidy a Sundance Kid,dobrodruzny,"SK,CZ,EN,DE",120min,2013-07-10 17:54:27.158239,Cordale,Paramount,interdum feugiat. Sed nec metus facilisis lorem tristique,72892962750499,12.00       ,18
+filmy,Báječný hotel Marigold,dobrodruzny,"SK,CZ,EN,DE",120min,2013-07-11 17:54:27.158239,Cuparun,Pixar,volutpat. Nulla dignissim. Maecenas ornare,50883533060277,12.00       ,12
+filmy,Bátoryčka: Krvavá grófka,scifi,"SK,CZ,EN,DE",120min,2013-07-12 17:54:27.158239,Cylmar,20th Century fox,"congue, elit sed consequat auctor, nunc",93165058920771,12.00       ,18
+filmy,Bělehradský fantom,horor,"SK,CZ,EN,DE",120min,2013-07-13 17:54:27.158239,,Tristar,eu arcu. Morbi sit amet massa. Quisque porttitor,16067840484454,12.00       ,0
+filmy,Bůh masakru,mysteriozny,"SK,CZ,EN,DE",120min,2013-07-14 17:54:27.158239,Daermod,Columbia,odio. Aliquam vulputate ullamcorper magna. Sed,63267332490311,12.00       ,15
+filmy,Rabbit Hole,mysteriozny,"SK,CZ,EN,DE",120min,2013-07-15 17:54:27.158239,Dakkone,Pixar,imperdiet ullamcorper. Duis at lacus. Quisque,8225283134628,12.00       ,15
+filmy,Rad nešťastných príhod,drama,"SK,CZ,EN,DE",120min,2013-07-16 17:54:27.158239,Dapvhir,Pixar,ullamcorper viverra. Maecenas iaculis,7371538971362,12.00       ,0
+filmy,Rafťáci,horor,"SK,CZ,EN,DE",120min,2013-07-17 17:54:27.158239,Darko,Pixar,vulputate ullamcorper magna. Sed eu,78486702095230,12.00       ,0
+filmy,Rain Man,akcny,"SK,CZ,EN,DE",120min,2013-07-18 17:54:27.158239,Darpick,Warner Bros,mauris sagittis placerat. Cras dictum ultricies ligula.,85883255893875,12.00       ,15
+filmy,Rambo: Do pekla a naspäť,komedia,"SK,CZ,EN,DE",120min,2013-07-19 17:54:27.158239,Deathmar,Columbia,rutrum magna. Cras convallis,13791278981987,12.00       ,12
+filmy,Ramona,akcny,"SK,CZ,EN,DE",120min,2013-07-20 17:54:27.158239,Derrin,20th Century fox,"nibh. Aliquam ornare, libero at auctor ullamcorper,",12798672837731,12.00       ,18
+filmy,Rande mesiaca,romanticky,"SK,CZ,EN,DE",120min,2013-07-21 17:54:27.158239,Dinfar,Pixar,"est. Nunc laoreet lectus quis massa. Mauris vestibulum,",50664466644536,12.00       ,15
+filmy,Rango,animovany,"SK,CZ,EN,DE",120min,2013-07-22 17:54:27.158239,Dochrohan,Mediacom,diam. Proin dolor. Nulla semper tellus,51364052634572,12.00       ,15
+filmy,Ratatouille – Dobrú chuť!,dokument,"SK,CZ,EN,DE",120min,2013-07-23 17:54:27.158239,Dosoman,Lionsgate,"vitae nibh. Donec est mauris, rhoncus id, mollis",21472047503248,12.00       ,15
+filmy,Real Steel: Oceľová päsť,mysteriozny,"SK,CZ,EN,DE",120min,2013-07-24 17:54:27.158239,Drandon,Columbia,neque sed sem egestas blandit.,87439793856491,12.00       ,7
+filmy,Rebelové,akcny,"SK,CZ,EN,DE",120min,2013-07-25 17:54:27.158239,Drophar,Disney,Curabitur dictum. Phasellus in felis. Nulla tempor augue,7428890947441,12.00       ,18
+filmy,Rec 2,mysteriozny,"SK,CZ,EN,DE",120min,2013-07-26 17:54:27.158239,Duba,Pixar,"eu, eleifend nec, malesuada ut, sem. Nulla",79956396190956,12.00       ,18
+filmy,Red Hill,dobrodruzny,"SK,CZ,EN,DE",120min,2013-07-27 17:54:27.158239,Durmark,Disney,"accumsan sed, facilisis vitae, orci. Phasellus",44841260061909,12.00       ,18
+filmy,RED: Vo výslužbe a extrémne nebezpeční,komedia,"SK,CZ,EN,DE",120min,2013-07-28 17:54:27.158239,Dyten,Dreamworks,a sollicitudin orci sem eget massa. Suspendisse eleifend.,45024971377568,12.00       ,15
+filmy,Repo Men,horor,"SK,CZ,EN,DE",120min,2013-07-29 17:54:27.158239,Durmark,Columbia,vel arcu eu odio tristique,41496337507678,12.00       ,15
+filmy,Repo: Genetická opera!,dobrodruzny,"SK,CZ,EN,DE",120min,2013-07-30 17:54:27.158239,Dyten,20th Century fox,"sem mollis dui, in sodales elit",67812837818186,12.00       ,12
+filmy,Requiem za sen,pre deti,"SK,CZ,EN,DE",120min,2013-07-31 17:54:27.158239,Eckard,Lionsgate,"porta elit, a feugiat tellus lorem eu",74426912250858,12.00       ,12
+filmy,Reset,akcny,"SK,CZ,EN,DE",120min,2013-08-01 17:54:27.158239,Egmardern,Dreamworks,ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam,52710523351179,12.00       ,15
+filmy,Resident Evil: Afterlife,pre deti,"SK,CZ,EN,DE",120min,2013-08-02 17:54:27.158239,Eli,Metro Goldwyn Mayer,sem magna nec quam. Curabitur vel,35610137049390,12.00       ,0
+filmy,Resident Evil: Zánik,akcny,"SK,CZ,EN,DE",120min,2013-08-03 17:54:27.158239,Elthin,Dreamworks,Curabitur egestas nunc sed libero. Proin sed,15878589002464,12.00       ,0
+filmy,Restless,scifi,"SK,CZ,EN,DE",120min,2013-08-04 17:54:27.158239,Enidin,Lionsgate,"feugiat nec, diam. Duis",53399009136286,12.00       ,18
+filmy,Rex - superpes,komedia,"SK,CZ,EN,DE",120min,2013-08-05 17:54:27.158239,Erikarn,Pixar,"Nunc lectus pede, ultrices a,",58674442032035,14.00       ,7
+filmy,Reťazová správa,horor,"SK,CZ,EN,DE",120min,2013-08-06 17:54:27.158239,Escariet,Pixar,"nec, leo. Morbi neque tellus, imperdiet",50904303313540,14.00       ,7
+filmy,Ricky,dobrodruzny,"SK,CZ,EN,DE",120min,2013-08-07 17:54:27.158239,Etburn,Dreamworks,"eu, odio. Phasellus at augue id ante",73631305858880,14.00       ,12
+filmy,Riddick: Kronika temna,akcny,"SK,CZ,EN,DE",120min,2013-08-08 17:54:27.158239,Etmere,Columbia,"neque vitae semper egestas,",92642557850264,14.00       ,7
+filmy,Rio,akcny,"SK,CZ,EN,DE",120min,2013-08-09 17:54:27.158239,,Mediacom,vestibulum. Mauris magna. Duis dignissim tempor,71455086482241,14.00       ,0
+filmy,Rituál,scifi,"SK,CZ,EN,DE",120min,2013-08-10 17:54:27.158239,Faowind,Paramount,cubilia Curae; Donec tincidunt. Donec vitae,12205858305266,14.00       ,7
+filmy,Robin Hood,dobrodruzny,"SK,CZ,EN,DE",120min,2013-08-11 17:54:27.158239,Fetmar,Pixar,Nunc sed orci lobortis augue scelerisque,43025470557949,14.00       ,15
+filmy,RoboCop,dobrodruzny,"SK,CZ,EN,DE",120min,2013-08-12 17:54:27.158239,Fickfylo,Warner Bros,rutrum magna. Cras convallis convallis dolor. Quisque tincidunt,18021336194599,14.00       ,7
+filmy,Rock zo strednej,scifi,"SK,CZ,EN,DE",120min,2013-08-13 17:54:27.158239,Firiro,Tristar,nisl. Nulla eu neque pellentesque massa,76520645016663,14.00       ,12
+filmy,Rocker,horor,"SK,CZ,EN,DE",120min,2013-08-14 17:54:27.158239,Fraderk,Paramount,eu enim. Etiam imperdiet dictum magna.,51379400747831,14.00       ,15
+filmy,RocknRolla,mysteriozny,"SK,CZ,EN,DE",120min,2013-08-15 17:54:27.158239,Fyn,Metro Goldwyn Mayer,"cursus non, egestas a, dui. Cras",33119730376492,14.00       ,0
+filmy,Rocky,mysteriozny,"SK,CZ,EN,DE",120min,2013-08-16 17:54:27.158239,Drakoe,20th Century fox,tincidunt adipiscing. Mauris molestie pharetra nibh.,6667946347095,14.00       ,15
+filmy,Rocky Balboa,drama,"SK,CZ,EN,DE",120min,2013-08-17 17:54:27.158239,Drit,Lionsgate,"ultrices, mauris ipsum porta elit, a",92635845585952,14.00       ,15
+filmy,Rocky II,horor,"SK,CZ,EN,DE",120min,2013-08-18 17:54:27.158239,Dryden,Mediacom,"Aenean massa. Integer vitae nibh. Donec est mauris,",35441008045393,14.00       ,0
+filmy,Saw: Hra o prežitie,akcny,"SK,CZ,EN,DE",120min,2013-08-19 17:54:27.158239,Dukran,20th Century fox,dictum sapien. Aenean massa. Integer,48841586322917,14.00       ,15
+filmy,Saxána a Lexikon kouzel,komedia,"SK,CZ,EN,DE",120min,2013-08-20 17:54:27.158239,Dusaro,Tristar,"in aliquet lobortis, nisi nibh lacinia",86911453561516,14.00       ,7
+filmy,Schindlerov zoznam,akcny,"SK,CZ,EN,DE",120min,2013-08-21 17:54:27.158239,,Paramount,"Duis at lacus. Quisque purus sapien,",91949880367799,14.00       ,7
+filmy,Scott Pilgrim proti celému svetu,dokument,"SK,CZ,EN,DE",120min,2013-08-22 17:54:27.158239,Efamar,Pixar,ultrices iaculis odio. Nam interdum enim non,60747769112684,14.00       ,7
+filmy,Scott Pilgrim proti zbytku sveta,horor,"SK,CZ,EN,DE",120min,2013-08-23 17:54:27.158239,Eiridan,Lionsgate,mattis. Integer eu lacus.,29010050941208,14.00       ,7
+filmy,Scott Pilgrim proti zbytku sveta,mysteriozny,"SK,CZ,EN,DE",120min,2013-08-24 17:54:27.158239,Elik,20th Century fox,"erat, eget tincidunt dui augue eu",760508267380,14.00       ,15
+filmy,Secretariat,dobrodruzny,"SK,CZ,EN,DE",120min,2013-08-25 17:54:27.158239,Enbane,Mediacom,"lorem, eget mollis lectus pede",7427547608549,14.00       ,0
+filmy,Sedem,romanticky,"SK,CZ,EN,DE",120min,2013-08-26 17:54:27.158239,Enoon,Warner Bros,Nullam scelerisque neque sed sem,84884645153311,14.00       ,0
+filmy,Sedem samurajov,pre deti,"SK,CZ,EN,DE",120min,2013-08-27 17:54:27.158239,Erim,Tristar,"Mauris molestie pharetra nibh. Aliquam ornare, libero at",70177504042641,14.00       ,15
+filmy,Sedem statočných,komedia,"SK,CZ,EN,DE",120min,2013-08-28 17:54:27.158239,Espardo,Dreamworks,"dolor elit, pellentesque a, facilisis non, bibendum sed,",29103988523677,14.00       ,15
+filmy,Sedem životov,pre deti,"SK,CZ,EN,DE",120min,2013-08-29 17:54:27.158239,Etdar,Tristar,dignissim lacus. Aliquam rutrum lorem ac risus. Morbi,9870957552605,14.00       ,15
+filmy,Sejmout zabijáka,romanticky,"SK,CZ,EN,DE",120min,2013-08-30 17:54:27.158239,Etran,Metro Goldwyn Mayer,"magna. Phasellus dolor elit,",35654758646260,14.00       ,18
+filmy,Senna,dokument,"SK,CZ,EN,DE",120min,2013-08-31 17:54:27.158239,,20th Century fox,consequat enim diam vel arcu. Curabitur,94894674621284,14.00       ,12
+filmy,Seriózny muž,animovany,"SK,CZ,EN,DE",120min,2013-09-01 17:54:27.158239,Fearlock,Columbia,"tincidunt, nunc ac mattis ornare, lectus ante",88924678337074,14.00       ,7
+filmy,Sex & Drugs & Rock & Roll,dokument,"SK,CZ,EN,DE",120min,2013-09-02 17:54:27.158239,Feturn,Disney,"viverra. Donec tempus, lorem fringilla",34528323997619,14.00       ,7
+filmy,Sex Drive,dokument,"SK,CZ,EN,DE",120min,2013-09-03 17:54:27.158239,Fildon,Warner Bros,dui. Cum sociis natoque,89378392971309,14.00       ,12
+filmy,Sex v meste 2,dokument,"SK,CZ,EN,DE",120min,2013-09-04 17:54:27.158239,Floran,Metro Goldwyn Mayer,"eu, ultrices sit amet, risus. Donec nibh",38362891114101,14.00       ,0
+filmy,Sex v meste: Film,animovany,"SK,CZ,EN,DE",120min,2013-09-05 17:54:27.158239,Fronar,Columbia,diam eu dolor egestas rhoncus.,82062440733705,14.00       ,0
+filmy,Sexbomba od vedľa,dokument,"SK,CZ,EN,DE",120min,2013-09-06 17:54:27.158239,Galain,Warner Bros,convallis convallis dolor. Quisque tincidunt pede,1449802694818,14.00       ,18
+filmy,Sexy 40,dokument,"SK,CZ,EN,DE",120min,2013-09-07 17:54:27.158239,Gauthus,Metro Goldwyn Mayer,orci. Ut semper pretium neque.,91074146687421,14.00       ,7
+filmy,Shank,pre deti,"SK,CZ,EN,DE",120min,2013-09-08 17:54:27.158239,Gemedes,Warner Bros,"lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit",13714254067661,14.00       ,12
+filmy,Sherlock Holmes,akcny,"SK,CZ,EN,DE",120min,2013-09-09 17:54:27.158239,Gib,Mediacom,Phasellus vitae mauris sit amet,58049124371969,14.00       ,7
+filmy,Sherlock Holmes 2,dobrodruzny,"SK,CZ,EN,DE",120min,2013-09-10 17:54:27.158239,Gith,Warner Bros,dignissim magna a tortor. Nunc commodo auctor,38041766021098,14.00       ,0
+filmy,Sherlock Holmes 2: Hra tieňov,horor,"SK,CZ,EN,DE",120min,2013-09-11 17:54:27.158239,Gothar,Mediacom,"malesuada vel, venenatis vel,",76024074108479,14.00       ,18
+filmy,Shoot the Hero,mysteriozny,"SK,CZ,EN,DE",120min,2013-09-12 17:54:27.158239,Grimie,Warner Bros,"velit justo nec ante. Maecenas mi felis, adipiscing",43872924780711,14.00       ,15
+filmy,Shrek,horor,"SK,CZ,EN,DE",120min,2013-09-13 17:54:27.158239,Gustov,Pixar,"Fusce diam nunc, ullamcorper",80056080065263,14.00       ,7
+filmy,Shrek 2,horor,"SK,CZ,EN,DE",120min,2013-09-14 17:54:27.158239,Gybrush,20th Century fox,Pellentesque habitant morbi tristique senectus,74318290114905,14.00       ,0
+filmy,Shrek Tretí,dokument,"SK,CZ,EN,DE",120min,2013-09-15 17:54:27.158239,,Columbia,In scelerisque scelerisque dui. Suspendisse,71751718799754,14.00       ,15
+filmy,Shrek: Zvonec a koniec,pre deti,"SK,CZ,EN,DE",120min,2013-09-16 17:54:27.158239,Hasten,Lionsgate,cursus. Integer mollis. Integer tincidunt aliquam,2886195486601,14.00       ,15
+filmy,Sicko,horor,"SK,CZ,EN,DE",120min,2013-09-17 17:54:27.158239,Heramon,Metro Goldwyn Mayer,Nulla semper tellus id nunc interdum feugiat.,50621383092882,14.00       ,12
+filmy,Signál,pre deti,"SK,CZ,EN,DE",120min,2013-09-18 17:54:27.158239,Hezak,Tristar,ante ipsum primis in faucibus orci luctus,64666543748134,14.00       ,7
+filmy,Silent Hill,animovany,"SK,CZ,EN,DE",120min,2013-09-19 17:54:27.158239,Hileict,Pixar,"ligula. Nullam enim. Sed nulla ante,",74634256630732,14.00       ,15
+filmy,Silvestrovská noc,akcny,"SK,CZ,EN,DE",120min,2013-09-20 17:54:27.158239,Gai,Tristar,"auctor, nunc nulla vulputate dui,",51525182635384,14.00       ,15
+filmy,Simpsonovci vo filme,dobrodruzny,"SK,CZ,EN,DE",120min,2013-09-21 17:54:27.158239,Gametris,Warner Bros,tempus mauris erat eget ipsum. Suspendisse sagittis.,52926550817557,14.00       ,18
+filmy,Single Man,scifi,"SK,CZ,EN,DE",120min,2013-09-22 17:54:27.158239,Gemedern,Pixar,amet risus. Donec egestas. Aliquam nec enim.,28089515708433,14.00       ,18
+filmy,Sinners & Saints,dokument,"SK,CZ,EN,DE",120min,2013-09-23 17:54:27.158239,Geth,Metro Goldwyn Mayer,"faucibus leo, in lobortis tellus justo",82834761222139,14.00       ,12
+filmy,Siren,romanticky,"SK,CZ,EN,DE",120min,2013-09-24 17:54:27.158239,Gibolt,Lionsgate,"dui, in sodales elit erat vitae risus. Duis",69797787393191,14.00       ,12
+filmy,Sirota,pre deti,"SK,CZ,EN,DE",120min,2013-09-25 17:54:27.158239,Gosford,Lionsgate,"tincidunt orci quis lectus. Nullam suscipit, est",53546380042364,14.00       ,18
+filmy,Sirota,drama,"SK,CZ,EN,DE",120min,2013-09-26 17:54:27.158239,Gresforn,20th Century fox,tristique senectus et netus et malesuada,40319006894287,14.00       ,12
+filmy,Sirotinec,animovany,"SK,CZ,EN,DE",80min,2013-09-27 17:54:27.158239,Gundir,Mediacom,"odio a purus. Duis elementum,",37991437718860,14.00       ,0
+filmy,Skala,dokument,"SK,CZ,EN,DE",80min,2013-09-28 17:54:27.158239,Gybol,Lionsgate,In faucibus. Morbi vehicula. Pellentesque tincidunt tempus,23473883890784,14.00       ,15
+filmy,Skateland,dobrodruzny,"SK,CZ,EN,DE",80min,2013-09-29 17:54:27.158239,,Dreamworks,malesuada fames ac turpis egestas. Fusce,97235126564382,14.00       ,7
+filmy,Skrat,dobrodruzny,"SK,CZ,EN,DE",80min,2013-09-30 17:54:27.158239,Harrenhal,Warner Bros,"Lorem ipsum dolor sit amet,",14248711505495,14.00       ,7
+filmy,Skutočná guráž,dokument,"SK,CZ,EN,DE",80min,2013-10-01 17:54:27.158239,Hecton,Metro Goldwyn Mayer,a feugiat tellus lorem eu metus. In lorem.,18915250376840,14.00       ,18
+filmy,Skyline,animovany,"SK,CZ,EN,DE",80min,2013-10-02 17:54:27.158239,Hermuck,Mediacom,"ipsum sodales purus, in molestie tortor nibh sit",22347686398893,14.00       ,0
+filmy,Skús ma rozosmiať,horor,"SK,CZ,EN,DE",80min,2013-10-03 17:54:27.158239,Hildar,Lionsgate,"ac facilisis facilisis, magna tellus faucibus",39847862012399,14.00       ,18
+filmy,Sloní muž,scifi,"SK,CZ,EN,DE",80min,2013-10-04 17:54:27.158239,Hyten,Disney,elit. Curabitur sed tortor. Integer,23946294871279,14.00       ,7
+filmy,Slovenka,dobrodruzny,"SK,CZ,EN,DE",80min,2013-10-05 17:54:27.158239,Galain,Disney,diam vel arcu. Curabitur,16246193066178,14.00       ,12
+filmy,Slúžky,dobrodruzny,"SK,CZ,EN,DE",80min,2013-10-06 17:54:27.158239,Gauthus,Columbia,et nunc. Quisque ornare tortor at risus.,57881728013994,14.00       ,18
+filmy,Sme v pohode,pre deti,"SK,CZ,EN,DE",80min,2013-10-07 17:54:27.158239,Gemedes,20th Century fox,Sed eu nibh vulputate,26333689873849,14.00       ,18
+filmy,Smrt a život Charlieho St. Clouda,dobrodruzny,"SK,CZ,EN,DE",80min,2013-10-08 17:54:27.158239,Gib,Disney,fermentum metus. Aenean sed,2859630468581,14.00       ,7
+filmy,Smrtonosná jazda,mysteriozny,"SK,CZ,EN,DE",80min,2013-10-09 17:54:27.158239,Gith,Paramount,at risus. Nunc ac,57673017696579,14.00       ,12
+filmy,Smrtonosná pasca,pre deti,"SK,CZ,EN,DE",80min,2013-10-10 17:54:27.158239,Gothar,Dreamworks,"nec ante. Maecenas mi felis, adipiscing",41943703433892,14.00       ,7
+filmy,Smrtonosná zbraň,pre deti,"SK,CZ,EN,DE",80min,2013-10-11 17:54:27.158239,Grimie,Lionsgate,"felis, adipiscing fringilla, porttitor vulputate, posuere",38495069176773,13.00       ,12
+filmy,Smrtonosná zbraň 2,drama,"SK,CZ,EN,DE",80min,2013-10-12 17:54:27.158239,Gustov,Disney,vel pede blandit congue. In scelerisque scelerisque,35377220924367,13.00       ,0
+filmy,Smrtonosná zbraň 3,akcny,"SK,CZ,EN,DE",80min,2013-10-13 17:54:27.158239,Gybrush,Tristar,dignissim tempor arcu. Vestibulum ut,25064550620706,13.00       ,0
+filmy,Smrtonosná zbraň 4,romanticky,"SK,CZ,EN,DE",80min,2013-10-14 17:54:27.158239,,Warner Bros,"lacus. Quisque imperdiet, erat",57082360681615,13.00       ,15
+filmy,Smrť čaká všade,drama,"SK,CZ,EN,DE",80min,2013-10-15 17:54:27.158239,Hasten,Paramount,"sodales at, velit. Pellentesque ultricies dignissim lacus.",7323387847467,13.00       ,0
+filmy,Snadný prachy,romanticky,"SK,CZ,EN,DE",80min,2013-10-16 17:54:27.158239,Heramon,Columbia,vel est tempor bibendum. Donec felis,26474557827508,13.00       ,15
+filmy,Snehulienka a lovec,dobrodruzny,"SK,CZ,EN,DE",80min,2013-10-17 17:54:27.158239,Hezak,Mediacom,"luctus sit amet, faucibus",12319642030978,13.00       ,15
+filmy,Snehulienka a sedem trpaslíkov,dobrodruzny,"SK,CZ,EN,DE",80min,2013-10-18 17:54:27.158239,Hileict,20th Century fox,"odio. Etiam ligula tortor, dictum eu, placerat eget,",43560034592419,13.00       ,15
+filmy,Snow Flower and the Secret Fan,dokument,"SK,CZ,EN,DE",80min,2013-10-19 17:54:27.158239,Idon,Warner Bros,eros. Nam consequat dolor,92814124866897,13.00       ,18
+filmy,Socialismus,romanticky,"SK,CZ,EN,DE",80min,2013-10-20 17:54:27.158239,Ikar,Metro Goldwyn Mayer,Curabitur dictum. Phasellus in felis. Nulla tempor,86520181126718,13.00       ,7
+filmy,Socializmus,animovany,"SK,CZ,EN,DE",80min,2013-10-21 17:54:27.158239,Illium,Dreamworks,Cras dictum ultricies ligula. Nullam enim.,23815620854611,13.00       ,18
+filmy,Sociálna sieť,komedia,"SK,CZ,EN,DE",80min,2013-10-22 17:54:27.158239,Irefist,Dreamworks,"consequat auctor, nunc nulla",51848469550677,13.00       ,18
+filmy,Solitary Man,romanticky,"SK,CZ,EN,DE",80min,2013-10-23 17:54:27.158239,Isil,Tristar,eu eros. Nam consequat,48661487107962,13.00       ,12
+filmy,Solomon Kane,romanticky,"SK,CZ,EN,DE",80min,2013-10-24 17:54:27.158239,Jalil,Columbia,"In mi pede, nonummy ut, molestie",68329268627178,13.00       ,15
+filmy,Soul Surfer,akcny,"SK,CZ,EN,DE",80min,2013-10-25 17:54:27.158239,Jayco,Lionsgate,"Nam nulla magna, malesuada",84523185662770,13.00       ,7
+filmy,Spaľovač mrtvol,akcny,"SK,CZ,EN,DE",80min,2013-10-26 17:54:27.158239,Jespar,Pixar,libero. Proin sed turpis,64232651819547,13.00       ,0
+filmy,Spider-Man,scifi,"SK,CZ,EN,DE",80min,2013-10-27 17:54:27.158239,Jib,Lionsgate,Nunc ac sem ut dolor dapibus gravida.,62557171366939,13.00       ,18
+filmy,Spider-Man 2,animovany,"SK,CZ,EN,DE",80min,2013-10-28 17:54:27.158239,Juktar,Lionsgate,tempor augue ac ipsum. Phasellus,61035267929839,13.00       ,15
+filmy,Spider-Man 3,scifi,"SK,CZ,EN,DE",80min,2013-10-29 17:54:27.158239,Justal,Mediacom,Morbi sit amet massa. Quisque porttitor,38601258430706,13.00       ,12
+filmy,Spievanie v daždi,akcny,"SK,CZ,EN,DE",80min,2013-10-30 17:54:27.158239,Kaldar,Mediacom,vitae dolor. Donec fringilla. Donec feugiat metus sit,64625651929848,13.00       ,12
+filmy,Splice,akcny,"SK,CZ,EN,DE",80min,2013-10-31 17:54:27.158239,Kesad,Lionsgate,"id, ante. Nunc mauris sapien, cursus in,",78806508857297,13.00       ,12
+filmy,Spolok mŕtvych básnikov,akcny,"SK,CZ,EN,DE",80min,2013-11-01 17:54:27.158239,Kib,Disney,"ultrices, mauris ipsum porta elit, a",99454189741760,13.00       ,18
+filmy,Spoveď nákupnej maniačky,dokument,"SK,CZ,EN,DE",80min,2013-11-02 17:54:27.158239,Kilbas,Pixar,orci. Ut sagittis lobortis,60938835343100,13.00       ,12
+filmy,Správcovia osudu,komedia,"SK,CZ,EN,DE",80min,2013-11-03 17:54:27.158239,Kimdar,Pixar,Integer mollis. Integer tincidunt aliquam arcu. Aliquam,49839293373114,13.00       ,12
+filmy,Správny chlap,mysteriozny,"SK,CZ,EN,DE",80min,2013-11-04 17:54:27.158239,Kirder,Paramount,porttitor scelerisque neque. Nullam nisl. Maecenas,97558596322775,13.00       ,7
+filmy,Spy Kids 4D: Stroj času,pre deti,"SK,CZ,EN,DE",80min,2013-11-05 17:54:27.158239,Kyrad,Columbia,non enim. Mauris quis turpis,97637566760133,13.00       ,12
+filmy,Stalker,dokument,"SK,CZ,EN,DE",80min,2013-11-06 17:54:27.158239,Lacspor,Metro Goldwyn Mayer,"vitae, erat. Vivamus nisi. Mauris nulla. Integer urna.",35823471968390,13.00       ,0
+filmy,Stalo sa v Ríme,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-07 17:54:27.158239,Lahorn,Columbia,"amet, consectetuer adipiscing elit. Aliquam auctor, velit eget",6694221798558,13.00       ,0
+filmy,Star Trek,mysteriozny,"SK,CZ,EN,DE",80min,2013-11-08 17:54:27.158239,Leit,Paramount,"diam. Duis mi enim, condimentum eget,",79204027409467,13.00       ,0
+filmy,Star Wars: Epizoda I – Skrytá hrozba,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-09 17:54:27.158239,Lerin,Pixar,Proin vel nisl. Quisque,76783377608407,13.00       ,15
+filmy,Star Wars: Epizoda II – Klonovaní útočia,drama,"SK,CZ,EN,DE",80min,2013-11-10 17:54:27.158239,Lidorn,Pixar,arcu eu odio tristique,6575780808307,13.00       ,18
+filmy,Star Wars: Epizoda IV – Nová nádej,akcny,"SK,CZ,EN,DE",80min,2013-11-11 17:54:27.158239,Ieli,Mediacom,"mi. Duis risus odio,",87554337614323,13.00       ,0
+filmy,Star Wars: Epizoda VI – Návrat Jediho,drama,"SK,CZ,EN,DE",80min,2013-11-12 17:54:27.158239,Ilgenar,Dreamworks,"aliquet diam. Sed diam lorem,",83099565356264,13.00       ,18
+filmy,Star Wars: Epizóda III – Pomsta Sithov,romanticky,"SK,CZ,EN,DE",80min,2013-11-13 17:54:27.158239,Ingel,Mediacom,dui. Suspendisse ac metus,57234798036750,13.00       ,18
+filmy,Star Wars: Epizóda V – Impérium vracia úder,akcny,"SK,CZ,EN,DE",80min,2013-11-14 17:54:27.158239,Ironmark,Tristar,sagittis. Duis gravida. Praesent eu nulla at,17300490065311,13.00       ,7
+filmy,Starí psi,mysteriozny,"SK,CZ,EN,DE",80min,2013-11-15 17:54:27.158239,Ithric,Tristar,"diam. Duis mi enim, condimentum eget, volutpat ornare,",67614859658784,13.00       ,7
+filmy,Statočné srdce,scifi,"SK,CZ,EN,DE",80min,2013-11-16 17:54:27.158239,Jamik,Metro Goldwyn Mayer,est. Nunc laoreet lectus quis massa. Mauris,53461872262327,13.00       ,7
+filmy,Stepfather,drama,"SK,CZ,EN,DE",80min,2013-11-17 17:54:27.158239,Jaython,Lionsgate,Phasellus fermentum convallis ligula.,64921546405154,13.00       ,12
+filmy,Stepfordské paničky,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-18 17:54:27.158239,Jethil,Columbia,"lacinia. Sed congue, elit sed consequat auctor, nunc",84847319281543,13.00       ,18
+filmy,Stiahni ma do pekla,dokument,"SK,CZ,EN,DE",80min,2013-11-19 17:54:27.158239,Jibar,Tristar,"dolor. Fusce mi lorem, vehicula et, rutrum eu,",87151183729135,13.00       ,12
+filmy,Stockholm East,mysteriozny,"SK,CZ,EN,DE",80min,2013-11-20 17:54:27.158239,Julthor,Pixar,ullamcorper magna. Sed eu,39923861170451,13.00       ,15
+filmy,Stolen,akcny,"SK,CZ,EN,DE",80min,2013-11-21 17:54:27.158239,,Metro Goldwyn Mayer,diam. Pellentesque habitant morbi tristique senectus et,90577639812541,13.00       ,12
+filmy,Stone,horor,"SK,CZ,EN,DE",80min,2013-11-22 17:54:27.158239,Kellan,Paramount,id magna et ipsum cursus vestibulum.,77706729580761,13.00       ,15
+filmy,Stopy zmizelých,drama,"SK,CZ,EN,DE",80min,2013-11-23 17:54:27.158239,Kesmon,Mediacom,"odio, auctor vitae, aliquet",12212790429231,13.00       ,7
+filmy,Strašiaci,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-24 17:54:27.158239,Kibidon,Mediacom,"luctus ut, pellentesque eget, dictum placerat, augue. Sed",87355061781272,13.00       ,0
+filmy,StreetDance 3D,scifi,"SK,CZ,EN,DE",80min,2013-11-25 17:54:27.158239,Kilburn,Paramount,sed orci lobortis augue scelerisque mollis.,4316628418937,13.00       ,12
+filmy,Strom života,scifi,"SK,CZ,EN,DE",80min,2013-11-26 17:54:27.158239,Kinorn,Tristar,Donec porttitor tellus non magna. Nam,27904259321013,13.00       ,15
+filmy,Strážcovia,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-27 17:54:27.158239,Kodof,Lionsgate,"aliquam iaculis, lacus pede",38533849578997,13.00       ,15
+filmy,Strýko Búnmí,komedia,"SK,CZ,EN,DE",80min,2013-11-28 17:54:27.158239,,Metro Goldwyn Mayer,"malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus",82500404764086,13.00       ,18
+filmy,Submarino,dobrodruzny,"SK,CZ,EN,DE",80min,2013-11-29 17:54:27.158239,Laderic,Disney,"facilisis facilisis, magna tellus faucibus leo,",9948572421900,13.00       ,15
+filmy,Sucker punch,pre deti,"SK,CZ,EN,DE",80min,2013-11-30 17:54:27.158239,Laracal,Columbia,"bibendum. Donec felis orci, adipiscing",89772272787452,13.00       ,7
+filmy,Sucker Punch,komedia,"SK,CZ,EN,DE",80min,2013-12-01 17:54:27.158239,Lephar,Lionsgate,enim non nisi. Aenean eget metus. In nec,44854893365896,13.00       ,18
+filmy,Sunset Boulevard,komedia,"SK,CZ,EN,DE",80min,2013-12-02 17:54:27.158239,Lesphares,Lionsgate,"sed, facilisis vitae, orci. Phasellus dapibus quam quis",79668430712400,13.00       ,12
+filmy,Sunshine,animovany,"SK,CZ,EN,DE",80min,2013-12-03 17:54:27.158239,Lin,Mediacom,convallis ligula. Donec luctus aliquet odio. Etiam ligula,85239084977342,13.00       ,18
+filmy,Super 8,akcny,"SK,CZ,EN,DE",80min,2013-12-04 17:54:27.158239,Iarmod,Warner Bros,consectetuer euismod est arcu ac orci. Ut semper,13982651081704,13.00       ,18
+filmy,Superbad,akcny,"SK,CZ,EN,DE",80min,2013-12-05 17:54:27.158239,Ieserk,Mediacom,Cras interdum. Nunc sollicitudin commodo,10406636720797,13.00       ,12
+filmy,Svetlá v súmraku,animovany,"SK,CZ,EN,DE",80min,2013-12-06 17:54:27.158239,Illilorn,20th Century fox,"nec ante. Maecenas mi felis, adipiscing fringilla, porttitor",4018900552643,13.00       ,0
+filmy,Svetová invázia,mysteriozny,"SK,CZ,EN,DE",80min,2013-12-07 17:54:27.158239,Ipedorn,Paramount,"a, auctor non, feugiat",34855362908729,13.00       ,0
+filmy,Svitanie,pre deti,"SK,CZ,EN,DE",80min,2013-12-08 17:54:27.158239,Isen,Metro Goldwyn Mayer,"accumsan sed, facilisis vitae, orci. Phasellus",42747765766318,13.00       ,18
+filmy,Svätá tráva,drama,"SK,CZ,EN,DE",80min,2013-12-09 17:54:27.158239,Jackson,Disney,"vitae, erat. Vivamus nisi. Mauris",95230096358367,13.00       ,0
+filmy,Svůdníci žen,drama,"SK,CZ,EN,DE",80min,2013-12-10 17:54:27.158239,Janus,Columbia,magna. Lorem ipsum dolor sit,9651309164820,13.00       ,18
+filmy,Sweeney Todd: Čertovský holič z Fleet Street,pre deti,"SK,CZ,EN,DE",80min,2013-12-11 17:54:27.158239,Jesco,Dreamworks,lectus pede et risus. Quisque libero,13809049135494,13.00       ,7
+filmy,Symptom Pandorum,drama,"SK,CZ,EN,DE",80min,2013-12-12 17:54:27.158239,Jex,Pixar,vel arcu. Curabitur ut odio,85194746145210,13.00       ,0
+filmy,Sám doma,komedia,"SK,CZ,EN,DE",80min,2013-12-13 17:54:27.158239,Jin,Pixar,"ullamcorper, nisl arcu iaculis enim, sit amet",3027936976102,13.00       ,0
+filmy,Sólista,drama,"SK,CZ,EN,DE",80min,2013-12-14 17:54:27.158239,Jun,Tristar,"a, auctor non, feugiat nec, diam. Duis",60645730587633,13.00       ,15
+filmy,Súboj Titanov,mysteriozny,"SK,CZ,EN,DE",80min,2013-12-15 17:54:27.158239,Kafar,Pixar,"a, arcu. Sed et libero. Proin mi. Aliquam",94398425351328,13.00       ,0
+filmy,Súmrak,pre deti,"SK,CZ,EN,DE",80min,2013-12-16 17:54:27.158239,Keran,Disney,"ultricies ornare, elit elit fermentum risus, at",98342457123214,13.00       ,12
+kniha,KNIHA O KUNDE,odborne,SK,635 stran,2013-12-17 17:54:27.158239,Satish Gujral,Ikar,tincidunt dui augue eu,978-1-81-001641-5,6.90       ,12
+kniha,"5 DNÍ, KTORÉ VÁS ZMENIA",detektivka,SK,417 stran,2013-12-18 17:54:27.158239,S.S. Kohli,Ikar,ipsum nunc id enim. Curabitur massa. Vestibulum accumsan,978-2-96-144462-8,8.30       ,7
+kniha,"5 DNÍ, KTORÉ ZMENIA VAŠE DIEŤA",detektivka,SK,459 stran,2013-12-19 17:54:27.158239,I.K. Gujral,Ikar,"lacus vestibulum lorem, sit amet",978-1-73-122167-8,8.90       ,15
+kniha,90 MINÚT V NEBI,fantasy,SK,190 stran,2013-12-20 17:54:27.158239,Tiziano Terzani,Ikar,nec quam. Curabitur vel lectus. Cum sociis,978-2-86-397561-6,6.90       ,0
+kniha,ABC BIBLE,detektivka,SK,594 stran,2013-12-21 17:54:27.158239,Judith A Howard and Jocelyn A.Hollander,Ikar,odio vel est tempor bibendum. Donec felis,978-1-45-860306-5,17.26       ,7
+kniha,ABRAHÁM A IZÁK,motivacne,SK,648 stran,2013-12-22 17:54:27.158239,Georgy Vladimov,Ikar,justo. Proin non massa non ante bibendum,978-9-83-306522-2,9.90       ,12
+kniha,AJ JA SOM KVAPKA,odborne,SK,020 stran,2013-12-23 17:54:27.158239,Namita Gokhale,Ikar,"mollis non, cursus non, egestas a, dui.",978-0-41-781537-7,9.50       ,0
+kniha,"AK CHCEŠ CHODIŤ PO VODE, MUSÍŠ VYSTÚPIŤ Z LODE",fantasy,SK,558 stran,2013-12-24 17:54:27.158239,Vladimir Zhirinovsky,Ikar,eget metus eu erat semper rutrum. Fusce,978-0-91-687618-3,7.70       ,7
+kniha,AKO CHYTAŤ V ŽITE,odborne,SK,721 stran,2013-12-25 17:54:27.158239,P.N. Chopra,Ikar,"mauris ut mi. Duis risus odio,",978-7-81-112874-0,6.00       ,12
+kniha,AKO MILOVAŤ SVOJE DIEŤA,motivacne,SK,294 stran,2013-12-26 17:54:27.158239,Vasant Navrekar,Ikar,"Quisque libero lacus, varius et, euismod et, commodo",978-0-55-234388-1,4.95       ,18
+kniha,AKO VYCHOVÁVAŤ DIEVČATÁ,roman,SK,067 stran,2013-12-27 17:54:27.158239,Partha Chatterjee,Ikar,"vulputate eu, odio. Phasellus at augue id ante",978-5-81-749511-4,9.50       ,12
+kniha,ANI TO NEJLEPŠÍ NESTAČÍ? PERFEKCIONISMUS A JEHO DŮSLEDKY,roman,SK,619 stran,2013-12-28 17:54:27.158239,Abdulla Kamal,Ikar,"auctor, nunc nulla vulputate",978-4-92-603890-2,9.95       ,18
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 1. SADA (4XDVD),roman,CZ,364 stran,2013-12-29 17:54:27.158239,Laxmi Sehgal,Ikar,"consectetuer, cursus et, magna.",978-9-07-521969-7,39.60       ,7
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 2. SADA (4XDVD),detektivka,CZ,374 stran,2013-12-30 17:54:27.158239,Arun Shourie,Ikar,Cras interdum. Nunc sollicitudin,978-7-56-821882-9,39.60       ,7
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 3. SADA (4XDVD),fantasy,CZ,334 stran,2013-12-31 17:54:27.158239,Lucinda Vardey,Ikar,"in, dolor. Fusce feugiat.",978-2-69-430719-8,39.60       ,7
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 4. SADA (4XDVD),scifi,CZ,808 stran,2014-01-01 17:54:27.158239,Vikram Seth,Ikar,non dui nec urna,978-3-98-141247-2,39.60       ,15
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 5. SADA (4XDVD),detektivka,CZ,701 stran,2014-01-02 17:54:27.158239,Octavio Paz,Ikar,lobortis tellus justo sit,978-1-57-840928-1,39.60       ,15
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 6. SADA (4XDVD),fantasy,CZ,767 stran,2014-01-03 17:54:27.158239,Peter Donelli,Ikar,Sed nec metus facilisis,978-2-08-151132-1,39.60       ,15
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 7. SADA (4XDVD),scifi,CZ,639 stran,2014-01-04 17:54:27.158239,Stanley Wolfer,Ikar,felis. Nulla tempor augue,978-1-60-084218-9,39.60       ,15
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 8. SADA (4XDVD),detektivka,CZ,869 stran,2014-01-05 17:54:27.158239,Walter Scott,Ikar,"mattis ornare, lectus ante",978-3-05-089182-9,39.60       ,0
+kniha,ANIMOVANÉ BIBLICKÉ PRÍBEHY 9. SADA (4XDVD),detektivka,CZ,266 stran,2014-01-06 17:54:27.158239,William Faulkner,Ikar,vel pede blandit congue.,978-0-40-866089-2,39.60       ,7
+kniha,AUDIO NOVÝ ZÁKON V MP3,fantasy,CZ,037 stran,2014-01-07 17:54:27.158239,John Dryden,Ikar,"congue, elit sed consequat",978-9-09-917439-3,1.90       ,0
+kniha,AUTOBUSY PLNÉ VODY,scifi,CZ,963 stran,2014-01-08 17:54:27.158239,D.R. Mankekar,Ikar,quam dignissim pharetra. Nam,978-2-23-832741-0,7.00       ,0
+kniha,BARÁNOK BOŽÍ,fantasy,CZ,491 stran,2014-01-09 17:54:27.158239,J.N. Dixit,Ikar,"dui. Fusce aliquam, enim",978-4-14-500109-0,9.90       ,12
+kniha,BEZ STRACHU - MAX LUCADO,fantasy,CZ,934 stran,2014-01-10 17:54:27.158239,George Eliot,Ikar,turpis. In condimentum. Donec,978-3-81-282025-9,6.90       ,0
+kniha,BIBLE - ČESKÝ STUDIJNÍ PŘEKLAD,detektivka,CZ,314 stran,2014-01-11 17:54:27.158239,Mohan Rakesh,Ikar,Donec sollicitudin adipiscing ligula.,978-5-82-965240-3,29.90       ,12
+kniha,"BIBLE21 ""BASIC""",roman,CZ,295 stran,2014-01-12 17:54:27.158239,P.B. Shelley,Ikar,"enim. Sed nulla ante,",978-4-45-995005-9,14.70       ,18
+kniha,"BIBLE21 ""ORANGE""",detektivka,CZ,361 stran,2014-01-13 17:54:27.158239,Sue Townsend,Ikar,"varius et, euismod et,",978-1-87-215418-9,20.90       ,15
+kniha,"BIBLE21 ""TRICOT""",detektivka,CZ,035 stran,2014-01-14 17:54:27.158239,Mark Twain,Ikar,felis. Nulla tempor augue,978-1-37-334858-8,20.90       ,15
+kniha,"BIBLE21 ""XL""",motivacne,CZ,011 stran,2014-01-15 17:54:27.158239,Daniel Defoe,Ikar,libero. Morbi accumsan laoreet,978-9-33-422023-5,20.90       ,0
+kniha,BIBLIA - EVANJELICKÝ PREDKLAD,detektivka,CZ,948 stran,2014-01-16 17:54:27.158239,P.G. Wodehouse,Ikar,fermentum arcu. Vestibulum ante,978-1-54-975527-3,13.30       ,12
+kniha,BIBLIA - SLOVENSKÝ EKUMENICKÝ PREKLAD - BEZ DEUTEROKANONICKÝCH KNÍH,roman,CZ,541 stran,2014-01-17 17:54:27.158239,Sir Arthur Conan Doyle,Ikar,molestie arcu. Sed eu,978-1-87-910406-3,24.86       ,15
+kniha,BIBLIA - SLOVENSKÝ EKUMENICKÝ PREKLAD - S DEUTEROKANONICKÝMI KNIHAMI,roman,CZ,347 stran,2014-01-18 17:54:27.158239,Mark Twain,Ikar,"euismod ac, fermentum vel,",978-9-56-209511-9,26.52       ,18
+kniha,BIBLIA - STARÝ ZÁKON - CD 1,fantasy,CZ,797 stran,2014-01-19 17:54:27.158239,lrving Stone,Ikar,"tempor, est ac mattis",978-7-34-131684-4,2.95       ,0
+kniha,BIBLIA - STARÝ ZÁKON - CD 2,motivacne,CZ,880 stran,2014-01-20 17:54:27.158239,Allen Drury,Ikar,a feugiat tellus lorem,978-1-52-853903-5,2.95       ,15
+kniha,BIBLIA - SVÄTÉ PÍSMO,roman,CZ,312 stran,2014-01-21 17:54:27.158239,Virgil,Ikar,"Integer vulputate, risus a",978-3-21-052903-0,33.00       ,15
+kniha,BIBLIA - SVÄTÉ PÍSMO - NA CESTY,motivacne,CZ,731 stran,2014-01-22 17:54:27.158239,C.P.Snow,Ikar,"tellus faucibus leo, in",978-0-04-427695-0,17.00       ,12
+kniha,BIBLIA - VRECKOVÉ VYDANIE OD SSV,detektivka,CZ,378 stran,2014-01-23 17:54:27.158239,J.K.Galbraith,Ikar,Suspendisse ac metus vitae,978-3-76-562952-3,14.00       ,18
+kniha,BIBLIA EKUMENICKÁ BEZ DEUTEROKANONICKÝCH KNÍH V KOŽI,roman,CZ,481 stran,2014-01-24 17:54:27.158239,R.H. Magnus & Eden Naby,Ikar,"porttitor vulputate, posuere vulputate,",978-0-56-151442-7,51.45       ,18
+kniha,"BIBLIA EKUMENICKÁ BEZ DT - PRE DETI A PATHFINDEROV, VRECKOVÁ",fantasy,CZ,083 stran,2014-01-25 17:54:27.158239,Chester Bowles,Ikar,orci luctus et ultrices,978-5-28-060739-3,12.90       ,12
+kniha,"BIBLIA EKUMENICKÁ BEZ DT - PRE MLADÝCH, VRECKOVÁ",roman,CZ,188 stran,2014-01-26 17:54:27.158239,Susan Issacs,Ikar,Integer tincidunt aliquam arcu.,978-3-30-986272-4,12.90       ,18
+kniha,"BIBLIA EKUMENICKÁ BEZ DT - VRECKOVÁ, MÄKKÝ OBAL",motivacne,CZ,042 stran,2014-01-27 17:54:27.158239,S.M. Ali,Ikar,enim. Etiam imperdiet dictum,978-0-20-745880-0,12.90       ,0
+kniha,BIBLIA EKUMENICKÁ S DEUTEROKANONICKÝMI KNIHAMI V KOŽI,motivacne,CZ,177 stran,2014-01-28 17:54:27.158239,Boris Yeltsin,Ikar,Ut sagittis lobortis mauris.,978-6-63-469542-5,53.11       ,15
+kniha,"BIBLIA EKUMENICKÁ S DT - VRECKOVÁ, MÄKKÝ OBAL",fantasy,CZ,946 stran,2014-01-29 17:54:27.158239,Jean Paul Sartre,Ikar,"fringilla ornare placerat, orci",978-7-68-866584-7,12.90       ,15
+kniha,BIBLICKÉ PRÍBEHY 1 (CD-ROM),scifi,CZ,634 stran,2014-01-30 17:54:27.158239,Acharya Tulsi,Ikar,Sed eu nibh vulputate,978-2-59-324813-9,11.60       ,0
+kniha,BIBLICKÉ PRÍBEHY 2 (CD-ROM),motivacne,CZ,666 stran,2014-01-31 17:54:27.158239,Kazi Nazrul Islam,Ikar,"est, vitae sodales nisi",978-1-95-442496-7,11.60       ,0
+kniha,BIBLICKÉ PRÍBEHY 3 (CD-ROM),motivacne,CZ,840 stran,2014-02-01 17:54:27.158239,Irving Stone,Ikar,"adipiscing, enim mi tempor",978-4-43-320078-4,11.60       ,15
+kniha,BIBLICKÉ PRÍBEHY 4 (CD-ROM),roman,CZ,077 stran,2014-02-02 17:54:27.158239,Abul Fazal,Ikar,vitae nibh. Donec est,978-4-10-443834-1,11.60       ,12
+kniha,BIBLICKÉ PRÍBEHY 5 (CD-ROM),fantasy,CZ,825 stran,2014-02-03 17:54:27.158239,Arthur Hailey,Ikar,ultrices posuere cubilia Curae;,978-3-61-915154-8,11.60       ,18
+kniha,BIBLICKÉ PRÍBEHY 6 (CD-ROM),detektivka,CZ,924 stran,2014-02-04 17:54:27.158239,Jai Shankar Prasad,Ikar,ut nisi a odio,978-3-92-724722-6,11.60       ,15
+kniha,BLÁZNIVÁ LÁSKA,roman,CZ,342 stran,2014-02-05 17:54:27.158239,Abul Fazal,Ikar,morbi tristique senectus et,978-7-68-713006-5,6.90       ,15
+kniha,"BOH JE BLIŽŠIE, NEŽ SI MYSLÍŠ",odborne,CZ,156 stran,2014-02-06 17:54:27.158239,James Michener,Ikar,Proin mi. Aliquam gravida,978-2-01-392818-3,8.50       ,15
+kniha,BOH NÁS VEDIE - MÁRIO TOMÁŠIK,scifi,CZ,464 stran,2014-02-07 17:54:27.158239,Ben Johnson,Fragment,ipsum ac mi eleifend,978-9-13-195668-8,9.90       ,7
+kniha,BOH SA PRIBLÍŽIL,motivacne,CZ,169 stran,2014-02-08 17:54:27.158239,Lawrence Durrel,Fragment,"placerat eget, venenatis a,",978-3-65-136446-1,6.90       ,18
+kniha,BOŽIA DOKONALOSŤ,fantasy,CZ,832 stran,2014-02-09 17:54:27.158239,John Gunther,Fragment,diam vel arcu. Curabitur,978-0-81-121412-3,2.00       ,15
+kniha,BOŽIA RODINA - PRÍBEHY Z KRÁĽOVSKEJ ULICE,odborne,CZ,399 stran,2014-02-10 17:54:27.158239,Lewis Carroll,Fragment,"eleifend non, dapibus rutrum,",978-5-24-833400-2,1.32       ,12
+kniha,BREVIÁŘ HŘÍCHU,roman,CZ,983 stran,2014-02-11 17:54:27.158239,Peter Brimelow,Fragment,Donec egestas. Aliquam nec,978-8-38-352097-7,2.50       ,12
+kniha,BŮH NA LAVICI OBŽALOVANÝCH,fantasy,CZ,081 stran,2014-02-12 17:54:27.158239,John Dryden,Fragment,"nec, imperdiet nec, leo.",978-1-76-398449-7,7.70       ,15
+kniha,BÝT DOBROU MÁMOU,fantasy,CZ,774 stran,2014-02-13 17:54:27.158239,William Shakespeare,Fragment,enim diam vel arcu.,978-7-49-233573-6,10.30       ,0
+kniha,CESTA KE ŠTĚSTÍ - TAJEMSTVÍ VAŠÍ DUŠEVNÍ POHODY,roman,CZ,377 stran,2014-02-14 17:54:27.158239,Erich Maria Remarque,Fragment,"pharetra nibh. Aliquam ornare,",978-0-20-965165-9,12.28       ,0
+kniha,CESTA UZDRAVENÍ,roman,CZ,801 stran,2014-02-15 17:54:27.158239,Robert Penn Warren,Fragment,Aliquam erat volutpat. Nulla,978-3-67-997841-8,4.00       ,18
+kniha,CESTOU USMÍŘENÍ - PRŮVODCE ŘEŠENÍ OSOBNÍCH KONFLIKTŮ,motivacne,CZ,016 stran,2014-02-16 17:54:27.158239,Carl Bernstein and Bob Woodward,Fragment,sed pede nec ante,978-2-82-106563-9,12.12       ,7
+kniha,CIRKEV BEZ MÚROV? - CIRKEVNÁ OBEC A OTVORENÁ SPOLOČNOSŤ,odborne,CZ,753 stran,2014-02-17 17:54:27.158239,James Herroit,Fragment,eu sem. Pellentesque ut,978-2-31-338854-3,1.83       ,7
+kniha,CO DOKÁŽE ÚCTA ...ANEB KAŽDÝ SI ZASLOUŽÍ ÚCTU,fantasy,CZ,270 stran,2014-02-18 17:54:27.158239,Pearl S.Buck,Fragment,"elit, a feugiat tellus",978-4-80-279964-0,8.50       ,12
+kniha,CUDZIE TELÁ V NÁS,odborne,CZ,153 stran,2014-02-19 17:54:27.158239,Aldous Huxley,Fragment,vitae aliquam eros turpis,978-4-69-789335-6,2.00       ,7
+kniha,ČAS PRE RODINU,scifi,CZ,493 stran,2014-02-20 17:54:27.158239,Anita Brookner,Fragment,ridiculus mus. Aenean eget,978-3-80-513309-7,2.00       ,0
+kniha,"ČINTET, ALEBO MORE NA KONCI SVETA",scifi,CZ,382 stran,2014-02-21 17:54:27.158239,Amar Singh,Fragment,neque. Morbi quis urna.,978-4-36-463359-8,11.45       ,7
+kniha,DANIEL,odborne,CZ,791 stran,2014-02-22 17:54:27.158239,J.K. Galbraith,Fragment,nec tempus mauris erat,978-6-34-512446-0,9.90       ,15
+kniha,DÁVID A GOLIÁŠ,detektivka,CZ,868 stran,2014-02-23 17:54:27.158239,Chester Bowles,Fragment,est. Mauris eu turpis.,978-1-98-140581-4,9.90       ,7
+kniha,"DEDO, VYZDRAVIEŠ?",scifi,CZ,205 stran,2014-02-24 17:54:27.158239,Henry Fielding,Fragment,"parturient montes, nascetur ridiculus",978-6-58-294530-5,1.00       ,12
+kniha,DETI A HRANICE,motivacne,CZ,985 stran,2014-02-25 17:54:27.158239,J.K. Galbraith,Fragment,molestie tellus. Aenean egestas,978-1-69-510855-4,11.25       ,15
+kniha,DĚTI A PĚT JAZYKŮ LÁSKY,detektivka,CZ,197 stran,2014-02-26 17:54:27.158239,Gunnar Myrdal,Fragment,"tempus scelerisque, lorem ipsum",978-6-64-588537-6,8.46       ,0
+kniha,DĚTI A ROZVOD,odborne,CZ,872 stran,2014-02-27 17:54:27.158239,Theodore Dreiser,Fragment,egestas rhoncus. Proin nisl,978-8-32-751204-2,12.61       ,15
+kniha,DEUS SEMPER MAIOR,detektivka,CZ,290 stran,2014-02-28 17:54:27.158239,Robert Louis Stevenson,Fragment,"pharetra sed, hendrerit a,",978-6-68-619705-2,8.80       ,15
+kniha,"DIESEL II. - BRUTÁLNÍ SÍLA, PODSVĚTÍ, KRIMINÁL, KŘEST",scifi,CZ,215 stran,2014-03-01 17:54:27.158239,Jawaharlal Nehru,Fragment,"nibh. Donec est mauris,",978-4-18-866720-4,6.50       ,0
+kniha,DIVOKÝ V SRDCI! - ODHAĽOVANIE TAJOMSTVA DUŠE MUŽA!,motivacne,CZ,554 stran,2014-03-02 17:54:27.158239,David Selbourne,Fragment,fermentum convallis ligula. Donec,978-9-97-162283-7,4.50       ,15
+kniha,DO PÁTKU BUDE VÁŠ MANŽEL JINÝ,detektivka,SK,883 stran,2014-03-03 17:54:27.158239,Dr.S. Radhakrishnan,Fragment,"massa. Mauris vestibulum, neque",978-0-03-965835-4,9.35       ,7
+kniha,DOBRÁ ZPRÁVA PRO ŠPATNÉ LIDI,odborne,SK,062 stran,2014-03-04 17:54:27.158239,Bankim Chandra Chatterjee,Fragment,Etiam vestibulum massa rutrum,978-6-95-482154-1,6.90       ,7
+kniha,DOBRÉ VZŤAHY,roman,DE,149 stran,2014-03-05 17:54:27.158239,J.N. Dixit,Fragment,ipsum nunc id enim.,978-0-31-857076-4,9.90       ,7
+kniha,DOBRODRUŽSTVÍ ŽIVOTA,odborne,DE,070 stran,2014-03-06 17:54:27.158239,Norman Mailer,Fragment,metus. Aenean sed pede,978-4-74-861355-8,3.50       ,7
+kniha,"DOVIDENIA, TETA ANKA",odborne,DE,579 stran,2014-03-07 17:54:27.158239,Samuel Taylor Coleridge,Fragment,arcu. Vivamus sit amet,978-9-17-566872-2,1.00       ,15
+kniha,DÔVERNÍ SPOJENCI,motivacne,DE,089 stran,2014-03-08 17:54:27.158239,Mikhali Sholokhov,Fragment,ut mi. Duis risus,978-9-26-001819-4,6.00       ,0
+kniha,DRACI S DOBRÝMI ÚMYSLY - JAK SLOUŽIT PROBLÉMOVÝM LIDEM V CÍRKVI,odborne,DE,777 stran,2014-03-09 17:54:27.158239,Lewis Carroll,Fragment,"malesuada vel, venenatis vel,",978-6-42-128254-8,7.14       ,0
+kniha,DRUHÁ STRANA SMRTI,scifi,DE,097 stran,2014-03-10 17:54:27.158239,George Bernard Shaw,Fragment,ornare tortor at risus.,978-4-40-297884-0,10.62       ,15
+kniha,DVE VÍNA,scifi,DE,018 stran,2014-03-11 17:54:27.158239,Willem Doevenduin,Fragment,"nunc nulla vulputate dui,",978-1-43-743925-9,9.70       ,15
+kniha,DÝKA A KRÍŽ,odborne,DE,674 stran,2014-03-12 17:54:27.158239,Lakshmidhar Mishra,Fragment,et netus et malesuada,978-7-13-926852-2,4.95       ,15
+kniha,EFEŽANOM,motivacne,DE,153 stran,2014-03-13 17:54:27.158239,George Orwell,Fragment,"dui quis accumsan convallis,",978-4-67-487165-6,1.00       ,18
+kniha,ELIÁŠ,detektivka,DE,569 stran,2014-03-14 17:54:27.158239,Count Leo Tolstoy,Fragment,senectus et netus et,978-7-60-045448-9,9.90       ,12
+kniha,ELIZEUS,detektivka,DE,883 stran,2014-03-15 17:54:27.158239,Derek Walcott,Fragment,"scelerisque sed, sapien. Nunc",978-3-61-754449-6,9.90       ,7
+kniha,EMOCIONÁLNĚ ZDRAVÁ CÍRKEV,motivacne,DE,881 stran,2014-03-16 17:54:27.158239,Mohammad Reza Pahlavi,Fragment,"at, libero. Morbi accumsan",978-7-33-482199-6,11.45       ,7
+kniha,ESTER,odborne,DE,938 stran,2014-03-17 17:54:27.158239,Aldous Huxley,Fragment,"nibh. Donec est mauris,",978-6-62-767201-0,9.90       ,12
+kniha,EVANGELIUM ZLOMENÝCH,odborne,DE,847 stran,2014-03-18 17:54:27.158239,William Shakespeare,Fragment,Quisque ornare tortor at,978-0-57-122567-5,9.79       ,0
+kniha,FARBA VODY,detektivka,DE,824 stran,2014-03-19 17:54:27.158239,Aldous Huxley,Fragment,nisi dictum augue malesuada,978-3-49-697807-7,2.50       ,0
+kniha,HARMONIE V MANŽELSTVÍ,scifi,DE,534 stran,2014-03-20 17:54:27.158239,George Bernad Shaw,Fragment,"euismod ac, fermentum vel,",978-7-34-000731-8,9.95       ,18
+kniha,HISTÓRIA BIBLIE,odborne,DE,245 stran,2014-03-21 17:54:27.158239,Sir Richard Burton,Fragment,"lacinia. Sed congue, elit",978-4-23-136493-1,39.83       ,7
+kniha,HOLÁ PRAVDA O SEXE,motivacne,DE,112 stran,2014-03-22 17:54:27.158239,V.S. Naipaul,Fragment,ac orci. Ut semper,978-5-66-435125-9,2.00       ,12
+kniha,HOVORY,detektivka,EN,538 stran,2014-03-23 17:54:27.158239,Vikram Seth,Fragment,sit amet nulla. Donec,978-0-33-433507-6,8.00       ,7
+kniha,HRANICE A DOSPÍVAJÍCÍ,fantasy,EN,885 stran,2014-03-24 17:54:27.158239,George Bernard Shaw,Fragment,"purus. Duis elementum, dui",978-9-19-322972-2,11.95       ,0
+kniha,HRAVO S BIBLIOU,scifi,EN,873 stran,2014-03-25 17:54:27.158239,Jules verne,Fragment,"convallis, ante lectus convallis",978-8-79-522034-6,9.89       ,18
+kniha,CHATRČ - V KTOREJ SA TRAGÉDIA KONFRONTUJE S VEČNOSŤOU,odborne,EN,262 stran,2014-03-26 17:54:27.158239,Elia Kazan,Fragment,"dolor sit amet, consectetuer",978-3-59-692043-7,11.50       ,15
+kniha,"CHCETE-LI KRÁČET PO VODÁCH, MUSÍTE VYSTOUPIT Z LODI",fantasy,EN,356 stran,2014-03-27 17:54:27.158239,Arthur Koestler,Fragment,"leo. Vivamus nibh dolor,",978-1-28-051358-6,10.90       ,7
+kniha,CHLIEB NÁŠ KAŽDODENNÝ  - BIBLICKÉ ÚVAHY NA KAŽDÝ DEŇ - 2011,motivacne,EN,240 stran,2014-03-28 17:54:27.158239,Arthur Koestler,Fragment,"scelerisque, lorem ipsum sodales",978-8-73-725039-5,4.30       ,0
+kniha,CHLIEB NÁŠ KAŽDODENNÝ  - BIBLICKÉ ÚVAHY NA KAŽDÝ DEŇ - 2012,odborne,EN,933 stran,2014-03-29 17:54:27.158239,Joseph Conrad,Fragment,"sodales at, velit. Pellentesque",978-0-20-099293-6,4.50       ,15
+kniha,CHLIEB Z NEBA,odborne,EN,486 stran,2014-03-30 17:54:27.158239,Sinclair Lewis,Fragment,nunc id enim. Curabitur,978-6-58-554799-5,9.90       ,15
+kniha,CHUCK NORRIS - JAKÝ JE DOOPRAVDY. FÁMY A FAKTA,motivacne,EN,810 stran,2014-03-31 17:54:27.158239,Kautilya,Fragment,non justo. Proin non,978-5-73-946559-5,9.05       ,12
+kniha,IKONY EVOLUCE,roman,EN,432 stran,2014-04-01 17:54:27.158239,William Faulkner,Fragment,eu eros. Nam consequat,978-0-97-097926-3,16.43       ,7
+kniha,ILUSTROVANÁ PRÍRUČKA K BIBLII,motivacne,EN,795 stran,2014-04-02 17:54:27.158239,William Shakespeare,Fragment,Quisque ac libero nec,978-8-38-784153-1,48.80       ,15
+kniha,IMAGINE,odborne,EN,574 stran,2014-04-03 17:54:27.158239,Sir John Hunt,Fragment,"id, libero. Donec consectetuer",978-1-89-484039-0,6.95       ,15
+kniha,JAK BEZE SLOV ZLEPŠIT SVÉ MANŽELSTVÍ,scifi,EN,161 stran,2014-04-04 17:54:27.158239,Panini,Fragment,dolor. Quisque tincidunt pede,978-8-90-690383-9,9.95       ,18
+kniha,JAK PŘEKONAT VYHOŘENÍ,scifi,EN,487 stran,2014-04-05 17:54:27.158239,K.M. Panikkar,Fragment,"erat. Sed nunc est,",978-2-22-091516-8,6.90       ,18
+kniha,JAK SE VYPOŘÁDAT SE STUDEM A VINOU?,fantasy,EN,713 stran,2014-04-06 17:54:27.158239,Gunnar Myrdal,Fragment,"suscipit, est ac facilisis",978-2-87-225639-5,6.47       ,12
+kniha,JAK VYCHOVAT DĚTI A NEPŘIJÍT O ROZUM,roman,EN,348 stran,2014-04-07 17:54:27.158239,E.M. Forster,Enigma,ultrices posuere cubilia Curae;,978-3-74-433472-7,9.55       ,12

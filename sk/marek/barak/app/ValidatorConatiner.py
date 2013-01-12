@@ -23,6 +23,9 @@ class ValidatorContainer(object):
         self.registerElement("zaplatena", BooleanValidator())
         self.registerElement("pocet_ks",PositiveIntegerValidator())
         self.registerElement("telo_faktury", XMLValidator())
+        self.registerElement("vybavenie", BooleanValidator())
+        self.registerElement("uznanie", BooleanValidator)
+        self.registerElement("pocet_kusov", PositiveIntegerValidator())
         
     def getElement(self,elementId):
         if elementId.lower() in self._container.keys():

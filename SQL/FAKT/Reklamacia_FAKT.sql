@@ -10,7 +10,6 @@
 	vybavenie boolean,
 	zdovodnenie text,
 	pocet_kusov smallint,
-	constraint reklamacia_fakt_pkey primary key(id_zakaznik,id_zamestnanec,vybavuje_dodavatel,id_cas,id_tovar),
 	FOREIGN KEY (id_cas) REFERENCES Cas_DIM(id_cas),
 	FOREIGN KEY (id_tovar) REFERENCES Tovar_DIM(id_tovar),
 	FOREIGN KEY (id_zamestnanec) REFERENCES Zamestnanec_DIM(id_zamestnanec),
