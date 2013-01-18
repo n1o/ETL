@@ -5,19 +5,23 @@ Created on Dec 14, 2012
 '''
 import psycopg2
 
+
+#base loader class all loader classes need to extend this class
 class BaseLoader(object):
     '''
     classdocs
     '''
 
     def __init__(self):
-        self.conx=psycopg2.connect(database="BI", user="bi",port=5432,host="localhost",password="test")
+        self.conx=psycopg2.connect(database="BI", user="bi",port=5432,host="localhost",password="test") #connection to database
         '''
         Constructor
         '''
     def load(self,elements):
         self.conx.close()
-        
+    
+    #Each loader is identified with a specific key,
+    #the key is made from attribute names
     def getKey(self):
         pass
     
@@ -33,7 +37,7 @@ class Dim_ZamestanecLoader(BaseLoader):
         for item in elements:
             curA.execute(query,item)
             
-        self.conx.commit()
+        self.conx.commit() #changes are commited only if all values where succesfuly inserted
         self.conx.close()
         
     def getKey(self):

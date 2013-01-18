@@ -62,7 +62,7 @@ class Util(object):
             return True
         else:
             return None
-        
+    
     def isPrevzatie(self,values):
         pattern = re.compile("osobny odber|kurier|posta")
         ret = pattern.match(values)

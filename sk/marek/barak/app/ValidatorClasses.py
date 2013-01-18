@@ -6,6 +6,7 @@ Created on Nov 1, 2012
 
 from sk.marek.barak.app.UtilClass import Util
 
+#Validator base class all validator classes need to exted this class
 class ValidatorBaseClass(object):
     __util__ = Util()
         
@@ -14,16 +15,23 @@ class ValidatorBaseClass(object):
         '''
         Constructor
         '''
+    #returns True if data is valid
+    #else return False
     def isValid(self,value):
         '''
         Define the validating codition for value
         '''
         raise NotImplementedError
+    
+    #this method tries to validated given item, if it success it returns
+    #validated value if not returns None
     def validate(self,valueToValidate):
         '''
         Define the validation opperation
         '''
         raise NotImplementedError
+    
+    
         
 class SumaValidatorImpl(ValidatorBaseClass):
     '''

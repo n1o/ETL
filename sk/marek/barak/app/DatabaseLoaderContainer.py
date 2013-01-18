@@ -5,6 +5,8 @@ Created on Jan 5, 2013
 '''
 from sk.marek.barak.app.DatabaseLoader import *
 
+#Container for all database loaders;
+#Each loader is an attribute of DatabaseLoaderCOntainer
 class DatabaseLoaderContainer():
     
     def __init__(self):
@@ -21,7 +23,9 @@ class DatabaseLoaderContainer():
         self.__faktDodavkaLoader__ = FaktDodavkaLoader()
         self.__faktReklamaciaLoader__ = FaktReklamaciaLoader()
         self.__faktZamPobocka__ = FaktZamestnanecPobockaLoader()
-        
+    
+    #gets an loader element based on specific key, each key
+    #is implement within a *Loader Class
     def getElement(self,key):
         if key == self.__zakLoader__.getKey():
             return self.__zakLoader__

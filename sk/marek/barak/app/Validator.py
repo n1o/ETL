@@ -7,6 +7,7 @@ import csv
 from sk.marek.barak.app.ValidatorConatiner import ValidatorContainer
 from sk.marek.barak.app.DatabaseLoaderContainer import DatabaseLoaderContainer
 
+
 def getCsvContaint():
     lst = []
     with open("in.csv", 'rb') as csvFile:
@@ -44,11 +45,11 @@ def main():
         if len(validLine)==len(row):
             validLines.append(validLine)
         validLine=list()
-    ''''    
+        
     dbLoaderContainer = DatabaseLoaderContainer()
     dbLoader = dbLoaderContainer.getElement(str(header).lower())
     dbLoader.load(validLines)
-    '''
+
     
     for line in validLines:
         print line

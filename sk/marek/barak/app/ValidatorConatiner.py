@@ -4,6 +4,8 @@ Created on Nov 4, 2012
 @author: marek
 '''
 from sk.marek.barak.app.ValidatorClasses import *
+#Holds all validator classes
+#Wraped HashMap
 class ValidatorContainer(object):
     '''
     classdocs
@@ -26,13 +28,17 @@ class ValidatorContainer(object):
         self.registerElement("vybavenie", BooleanValidator())
         self.registerElement("uznanie", BooleanValidator)
         self.registerElement("pocet_kusov", PositiveIntegerValidator())
-        
+        self.registerElement("cas_znamka", DateValidator())
+    
+    #returns element only if it is contained inside validator container elese retruns
+    #None
     def getElement(self,elementId):
         if elementId.lower() in self._container.keys():
             validator = self._container[elementId.lower()]
             if validator is not None:
                 return validator
         else: return None
+    #Registers element but onnly if it is a subclass of BaseValidator
     def registerElement(self,Id,element):
         if isinstance(element, ValidatorBaseClass):
             self._container[Id] = element 
