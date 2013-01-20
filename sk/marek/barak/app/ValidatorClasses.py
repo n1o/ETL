@@ -7,6 +7,8 @@ Created on Nov 1, 2012
 from sk.marek.barak.app.UtilClass import Util
 
 #Validator base class all validator classes need to exted this class
+#Validator classes should be redesigned to be Singletons!, since each of them is used multiple times
+
 class ValidatorBaseClass(object):
     __util__ = Util()
         
@@ -21,7 +23,7 @@ class ValidatorBaseClass(object):
         '''
         Define the validating codition for value
         '''
-        raise NotImplementedError
+        return True
     
     #this method tries to validated given item, if it success it returns
     #validated value if not returns None
@@ -29,7 +31,7 @@ class ValidatorBaseClass(object):
         '''
         Define the validation opperation
         '''
-        raise NotImplementedError
+        return None
     
     
         
@@ -156,6 +158,8 @@ class ICOValidate(ValidatorBaseClass):
         ValidatorBaseClass.__init__(self)
     def isValid(self, value):
         return self.__util__.isValidICO(value)
+    def validate(self, valueToValidate):
+        return None
     
 class BooleanValidator(ValidatorBaseClass):
     def __init__(self):
@@ -212,4 +216,34 @@ class XMLValidator(ValidatorBaseClass):
         return self.__util__.isValidXML(value)
     def validate(self, valueToValidate):
         return self.__util__.validateXML(valueToValidate)
+    
+class DenVtyzdniValdiator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    def isValid(self, value):
+        return self.__util__.isValidDenVTyzdni(value)
+    def validate(self, valueToValidate):
+        return self.__util__.validateValidDenVTyzdni(valueToValidate)
+class DicValidator(ValidatorBaseClass):
+    def __init__(self):
+        ValidatorBaseClass.__init__(self)
+    
+    def isValid(self,value):
+        return self.__util__.isValidDic(value)
+    
+    def validate(self, valueToValidate):
+        return None
+class NazovValidate(ValidatorBaseClass):
+    def isValid(self, value):
+        return self.__util__.isValidLength(value, 50)
+class AdresaValidate(ValidatorBaseClass):
+    def isValid(self, value):
+        return self.__util__.isValidLength(value, 100)
+class OrkesValidate(ValidatorBaseClass):
+    def isValid(self, value):
+        return self.__util__.isValidLength(value, 50)
+class MestoValidate(ValidatorBaseClass):
+    def isValid(self, value):
+        return self.__util__.isValidLength(value, 50)
+
     

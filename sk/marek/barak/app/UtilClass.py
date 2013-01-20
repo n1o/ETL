@@ -5,7 +5,7 @@ Created on Nov 2, 2012
 '''
 import re
 from sre_parse import Pattern
-import datetime
+from datetime import datetime
 from compiler.pycodegen import EXCEPT
 from xml.etree import ElementTree
 class Util(object):
@@ -231,27 +231,19 @@ class Util(object):
         if match!=None:
             return value.upper()
         else: return None
+        
     def isValidDate(self,date):
-        pattern = re.compile("[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}")
-        val = pattern.match(date)
-        if val is not None:
-            if val.group() == date:
-                splitDate = date.split(".")
-                try:
-                    dt = datetime.datetime(int(splitDate[2]),int(splitDate[1]),int(splitDate[0]))
-                    return True
-                except ValueError:
-                    return False
-        return False
+        dt = datetime.strptime(str(date), "%y-%m-%d %H:%M:%S.%f")
+        return (dt is not None)
     
     def validateDate(self,value):
         posibleValues = []
         replaced = value
-        posibleValues.append(replaced.replace("-","."))
+        posibleValues.append(replaced.replace(".","-"))
         replaced = value
-        posibleValues.append(replaced.replace("/","."))
+        posibleValues.append(replaced.replace("/","-"))
         for val in posibleValues:
-            pattern = re.compile("[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{4}")
+            pattern = re.compile("[0-9]{1,2}\-[0-9]{1,2}\-[0-9]{4}")
             var = pattern.match(val)
             if var is not None:
                 if var.group() == val and self.isValidDate(val):
@@ -297,9 +289,27 @@ class Util(object):
     
     def validateXML(self,xmlBody):
         return None
+    
+    def isValidDenVTyzdni(self,den):
+        pattern = re.compile("Pondelok|Utorok|Streda|Stvrtok|Piatok|Sobota|Nedela")
+        ret = pattern.match(den)
+        if ret is not None:
+            return ret.group()==den
+        else: return False
+    
+    def validateValidDenVTyzdni(self,den):
+        alteredDen = den.lower().capitalize()
+        pattern = re.compile("Pondelok|Utorok|Streda|Stvrtok|Piatok|Sobota|Nedela")
+        ret = pattern.match(alteredDen)
+        if ret is not None:
+            return alteredDen
+        else: return None
         
-        
-            
+    def isValidDic(self,dic):
+        pattern = re.compile("^\d{10}$")
+    
+    def isValidLength(self,string,length):
+        return len(string)<=length
                      
 
         

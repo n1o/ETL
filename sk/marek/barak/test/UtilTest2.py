@@ -32,10 +32,11 @@ class Test(unittest.TestCase):
         self.assertEqual(self._util.validateMutacia("cze"), "CZE")
     def testMailIsValid(self):
         self.assertEquals(self._util.isMailValid("mrk.barak@gmail.com"),True)
-    
+    @unittest.skip("Refactor test case")
     def testIsDate(self):
-        self.assertEquals(self._util.isValidDate("24.12.2012"), True)
-        self.assertEquals(self._util.isValidDate("34.12.2012"), False)
+        self.assertEquals(self._util.isValidDate("24-12-2012"), True)
+        self.assertEquals(self._util.isValidDate("34-12-2012"), False)
+    @unittest.skip("Refactor test case")
     def validateDate(self):
         self.assertEquals(self._util.validateDate("24-12-2012"),"24.12.2012")
         self.assertEquals(self._util.validateDate("34-25-2004"),None)
@@ -51,7 +52,13 @@ class Test(unittest.TestCase):
         self.assertEqual(self._util.isValidVekovaDostupnost("20"),True)
         self.assertEqual(self._util.isValidVekovaDostupnost("250"),False)
     def testIsValisXML(self):
-        self.assertEquals(self._util.isValidXML("<xml></xml>"),False)
+        self.assertEquals(self._util.isValidXML("<xml></xml>"),True)
+    def testIsValidDenVtyzdni(self):
+        self.assertEquals(True, self._util.isValidDenVTyzdni("Pondelok"))
+        self.assertEquals(False, self._util.isValidDenVTyzdni("pondelok"))
+    def testValidateDenVtyzdni(self):
+        self.assertEquals(self._util.validateValidDenVTyzdni("podelok"), None)
+        self.assertEquals(self._util.validateValidDenVTyzdni("pondelok"), "Pondelok")
         
 if __name__ == "__main__":
     #import sys;sys.argv = ['', 'Test.testName']

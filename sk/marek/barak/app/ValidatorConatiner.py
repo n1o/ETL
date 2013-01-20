@@ -15,9 +15,8 @@ class ValidatorContainer(object):
     def __init__(self):
         self._container = dict()
         self.registerElement("mail", MailValidate())
-        self.registerElement("integer", PositiveIntegerValidator())
+        self.registerElement("pocet_kusov", PositiveIntegerValidator())
         self.registerElement("uznanie", BooleanValidator())
-        self.registerElement("c_uctu", CisloUctuValidate())
         self.registerElement("ico", ICOValidate())
         self.registerElement("meno", MenoZamestnancaValidate())
         self.registerElement("priezvisko",PriezvyskoZamesntancaValidate())
@@ -25,11 +24,18 @@ class ValidatorContainer(object):
         self.registerElement("zaplatena", BooleanValidator())
         self.registerElement("pocet_ks",PositiveIntegerValidator())
         self.registerElement("telo_faktury", XMLValidator())
-        self.registerElement("vybavenie", BooleanValidator())
+        self.registerElement("uspesne_vybavenie", BooleanValidator())
         self.registerElement("uznanie", BooleanValidator)
         self.registerElement("pocet_kusov", PositiveIntegerValidator())
-        self.registerElement("cas_znamka", DateValidator())
-    
+        self.registerElement("den_v_tyzdni", DenVtyzdniValdiator())
+        self.registerElement("uznana", BooleanValidator())
+        self.registerElement("vybavena", BooleanValidator())
+        self.registerElement("nazov", NazovValidate())
+        self.registerElement("adresa", AdresaValidate())
+        self.registerElement("okres", OrkesValidate())
+        self.registerElement("mesto", MestoValidate())
+        self.registerElement("vybavenie", BooleanValidator())
+        
     #returns element only if it is contained inside validator container elese retruns
     #None
     def getElement(self,elementId):
